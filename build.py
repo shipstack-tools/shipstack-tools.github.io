@@ -13,9 +13,15 @@ for c in cats:
   for t in c["tools"]: t["slug"]=tslug(t["name"]); t["category"]=c["name"]
 alltools=[t for c in cats for t in c["tools"]]
 GENERATED=["index.html","advertise","tools","api","llms.txt","llms-full.txt","sitemap.xml","robots.txt"]+list(SLUG.values())
+KEEP={os.path.join("api","subscribe.js")}  # serverless functions preserved across builds
 for g in GENERATED:
   p=os.path.join(ROOT,g)
-  if os.path.isdir(p): shutil.rmtree(p)
+  if g=="api" and os.path.isdir(p):
+    for f in os.listdir(p):
+      fp=os.path.join(p,f)
+      if os.path.join("api",f) in KEEP: continue
+      shutil.rmtree(fp) if os.path.isdir(fp) else os.remove(fp)
+  elif os.path.isdir(p): shutil.rmtree(p)
   elif os.path.exists(p): os.remove(p)
 def ld(o): return '<script type="application/ld+json">'+json.dumps(o).replace("</","<\\/")+'</script>'
 def page(path,title,desc,body,jsonld=()):
@@ -50,7 +56,7 @@ def faq(c):
      (f'Which {c["name"]} tools have a free tier?',(", ".join(t["name"] for t in ts if t.get("pricing","").lower().startswith(("free","hobby","developer","community","claude free","no-cost","open source"))) or "Check each tool's pricing page; we only list verified pricing.")+"."),
      (f'How does ShipStack rank {c["name"]}?','Rankings are editorial, based on maturity, fit for vibe coders and builders, and verification against each official site. Sponsorships never affect rank.')]
   return q
-SUB='''<section id="signup"><h2>Get the weekly ShipStack drop</h2><p>New tools and rank changes, every week.</p><!-- PLACEHOLDER: form action not connected to any email provider yet --><form action="#" onsubmit="event.preventDefault();this.querySelector('small').textContent='Thanks! (Placeholder — signup not connected yet.)'"><input type="email" required placeholder="you@example.com" aria-label="Email"><button>Subscribe</button><small>Placeholder form: not yet connected to an email service.</small></form></section>'''
+SUB='''<section id="signup"><h2>Get the weekly ShipStack drop</h2><p>New tools and rank changes, every week.</p><form id="signup-form" novalidate><input type="email" name="email" required placeholder="you@example.com" aria-label="Email"><input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><button type="submit">Subscribe</button><small role="status" aria-live="polite">No spam. Unsubscribe anytime.</small></form></section>'''
 # home
 btns='<button class="f on" data-c="all">All</button>'+"".join(f'<button class="f" data-c="{e(c["name"])}">{e(c["name"])}</button>' for c in cats)
 news="".join(f'<li><time>{n["date"]}</time><div><span class="tag">{e(n["category"])}</span> <b>{e(n["name"])}</b> — {e(n["summary"])} <a href="{e(n["source"])}" target="_blank" rel="noopener">source</a></div></li>' for n in d["new_this_week"])
