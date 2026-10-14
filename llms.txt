@@ -1,6 +1,6 @@
 # ShipStack
 
-> ShipStack (shipstack.tools) ranks AI tools by use case for vibe coders and builders, and tracks new AI tool launches weekly. Data verified 2026-10-13. Rankings are editorial; sponsorships never affect rank.
+> ShipStack (shipstack.tools) ranks AI tools by use case for vibe coders and builders, and tracks new AI tool launches weekly. Data verified 2026-10-14. Rankings are editorial; sponsorships never affect rank.
 
 ## Data
 - [Tools JSON API](https://shipstack.tools/api/tools.json): all tools, ranks, verified pricing

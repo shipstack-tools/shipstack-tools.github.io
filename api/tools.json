@@ -1,7 +1,7 @@
 {
   "name": "ShipStack",
   "url": "https://shipstack.tools",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "license": "Editorial data; please attribute ShipStack",
   "categories": [
     {
@@ -567,6 +567,62 @@
   ],
   "new_this_week": [
     {
+      "name": "Hermes Agent v0.22.0",
+      "date": "2026-10-14",
+      "category": "Agent frameworks",
+      "summary": "Nous Research's open agent adds keyless guided onboarding, Gmail/Linear/Notion connectors, one-click local llama.cpp models and a 600-plugin catalog.",
+      "source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0"
+    },
+    {
+      "name": "Claude Platform: OpenTelemetry traces (public beta)",
+      "date": "2026-10-14",
+      "category": "AI APIs & models",
+      "summary": "Send OTel traces from Claude Managed Agents, the Messages API and Claude SDKs to any observability tool.",
+      "source": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform"
+    },
+    {
+      "name": "Claude Code 2.1.299",
+      "date": "2026-10-14",
+      "category": "AI coding agents & IDEs",
+      "summary": "Idle compaction for 200K+ token conversations, file-mention controls, and /effort, /fast, /model in agent view.",
+      "source": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "name": "Tiden",
+      "date": "2026-10-14",
+      "category": "Testing & debugging",
+      "summary": "Intent verification for coding agents: versioned requirements checked by tests in your environment (#6 on Product Hunt).",
+      "source": "https://www.producthunt.com/products/tiden"
+    },
+    {
+      "name": "Reason",
+      "date": "2026-10-14",
+      "category": "AI coding agents & IDEs",
+      "summary": "Cloud or local coding agent that writes code, runs tests and opens PRs from Mac app, terminal, web or Slack.",
+      "source": "https://www.producthunt.com/products/dereference-the-100x-ide"
+    },
+    {
+      "name": "Epherem",
+      "date": "2026-10-14",
+      "category": "Testing & debugging",
+      "summary": "Free security scanner for AI-built apps: auth, database, exposed keys and vulnerable packages, with fix prompts.",
+      "source": "https://hunted.space/product/epherem"
+    },
+    {
+      "name": "Gemini 4 Argon in GitHub Copilot",
+      "date": "2026-10-13",
+      "category": "AI coding agents & IDEs",
+      "summary": "GA for Copilot Pro+, Max, Business and Enterprise across VS Code, CLI, coding agent, JetBrains and Xcode.",
+      "source": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/"
+    },
+    {
+      "name": "GitLab Duo agent orchestration",
+      "date": "2026-10-13",
+      "category": "AI coding agents & IDEs",
+      "summary": "Goal-driven flows run work end to end through review, tests, security scans and approvals; Custom Flows GA.",
+      "source": "https://about.gitlab.com/blog/gitlab-agent-orchestration/"
+    },
+    {
       "name": "Gemini 4 Argon (API + Antigravity)",
       "date": "2026-10-13",
       "category": "AI APIs & models",
@@ -600,6 +656,13 @@
       "category": "Agent frameworks",
       "summary": "Turns agent/user trajectories into reviewable SKILL.md skills.",
       "source": "https://www.copilotkit.ai/blog/introducing-clif"
+    },
+    {
+      "name": "OpenCode 2.0",
+      "date": "2026-10-12",
+      "category": "AI coding agents & IDEs",
+      "summary": "Open-source coding agent gets a shared background service across terminal/web/desktop, rebuilt API, SDK and background subagents.",
+      "source": "https://www.techdebrief.co/ai-apps/opencode-20-launches-with-shared-background-service-rebuilt--46bc58e6-ee8f-4d1e-8c33-3e25d0a18fdb"
     },
     {
       "name": "AWS Lambda Web Functions",
@@ -684,27 +747,6 @@
       "category": "AI coding agents & IDEs",
       "summary": "Coding agent running on a local LLM inside your network.",
       "source": "https://www.wissly.ai/en/blog/wissly-code-launch"
-    },
-    {
-      "name": "Figma agent GA",
-      "date": "2026-10-06",
-      "category": "Design-to-code",
-      "summary": "Figma's AI design agent exits beta with guidelines and multiplayer improvements.",
-      "source": "https://www.theverge.com/tech/1004953/figmas-ai-agent-for-product-design-is-now-generally-available"
-    },
-    {
-      "name": "Bond v1.0.0-beta.1",
-      "date": "2026-10-06",
-      "category": "AI coding agents & IDEs",
-      "summary": "Neuro's agentic coding platform for Windows, BYOK.",
-      "source": "https://neuro-corp.com/blog/bond-ai-neuro-s-agentic-coding-platform-for-windows"
-    },
-    {
-      "name": "Tofu (Show HN)",
-      "date": "2026-10-06",
-      "category": "Deploy & hosting",
-      "summary": "Deployment platform built for agents: hosting, Postgres, domains, auth via MCP.",
-      "source": "https://wpnews.pro/news/show-hn-tofu-let-your-agent-deploy-full-stack-apps"
     }
   ]
 }

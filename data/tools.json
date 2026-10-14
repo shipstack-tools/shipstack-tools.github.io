@@ -1,0 +1,752 @@
+{
+  "name": "ShipStack",
+  "url": "https://shipstack.tools",
+  "updated": "2026-10-14",
+  "license": "Editorial data; please attribute ShipStack",
+  "categories": [
+    {
+      "name": "AI coding agents & IDEs",
+      "slug": "best-ai-coding-agents",
+      "url": "https://shipstack.tools/best-ai-coding-agents/",
+      "tools": [
+        {
+          "rank": 1,
+          "name": "Cursor",
+          "slug": "cursor",
+          "url": "https://cursor.com",
+          "description": "AI coding agent and editor with cloud agents, automations and Bugbot code review.",
+          "best_for": "Daily driver IDE for builders",
+          "rank_reason": "Most mature agentic IDE experience",
+          "pricing": "Free; Plus $8/mo (Grok models only); Premium $30/mo; Super $100/mo; Ultra $200/mo; Teams from $30/user/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/cursor/"
+        },
+        {
+          "rank": 2,
+          "name": "Claude Code",
+          "slug": "claude-code",
+          "url": "https://claude.com/product/claude-code",
+          "description": "Anthropic's agentic coding tool for terminal and IDE: understands your codebase, edits files, runs commands.",
+          "best_for": "Large refactors from the CLI",
+          "rank_reason": "Strong autonomous multi-file edits",
+          "pricing": "Claude Free; Pro $20/mo ($17/mo annual); Max from $100/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/claude-code/"
+        },
+        {
+          "rank": 3,
+          "name": "OpenAI Codex",
+          "slug": "openai-codex",
+          "url": "https://openai.com/codex",
+          "description": "OpenAI's coding agent across ChatGPT, CLI, IDE extension and cloud; runs parallel agents and reviews PRs.",
+          "best_for": "Delegating parallel tasks",
+          "rank_reason": "Cloud + local agent flexibility",
+          "pricing": "Included with ChatGPT Plus ($20) and Pro ($100); Business $20/seat (annual, 2+ seats)",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/openai-codex/"
+        },
+        {
+          "rank": 4,
+          "name": "GitHub Copilot",
+          "slug": "github-copilot",
+          "url": "https://github.com/features/copilot",
+          "description": "AI coding agent that works from issue to merged PR, in your editor, terminal and on GitHub.",
+          "best_for": "Teams already on GitHub",
+          "rank_reason": "Broadest editor/GitHub integration",
+          "pricing": "Free; Pro $10/mo; Pro+ $39/mo; Max $100/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/github-copilot/"
+        },
+        {
+          "rank": 5,
+          "name": "Google Antigravity",
+          "slug": "google-antigravity",
+          "url": "https://antigravity.google",
+          "description": "Google's agent-first development platform (desktop app & CLI); now runs Gemini 4 Argon for AI Ultra subscribers.",
+          "best_for": "Trying Gemini-powered agents",
+          "rank_reason": "New, fast-moving, Gemini-native",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/google-antigravity/"
+        },
+        {
+          "rank": 6,
+          "name": "Devin Desktop (formerly Windsurf)",
+          "slug": "devin-desktop-formerly-windsurf",
+          "url": "https://devin.ai/desktop",
+          "description": "Windsurf was renamed Devin Desktop on Jun 2, 2026: a full IDE plus an Agent Command Center for local and cloud agents.",
+          "best_for": "Cursor alternative",
+          "rank_reason": "Rebranded from Windsurf; strong multi-agent manager, smaller ecosystem",
+          "pricing": "Free; Pro $20/mo; Max $200/mo; Teams $80/mo + $40/seat",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/devin-desktop-formerly-windsurf/"
+        }
+      ]
+    },
+    {
+      "name": "App builders (prompt-to-app)",
+      "slug": "best-ai-app-builders",
+      "url": "https://shipstack.tools/best-ai-app-builders/",
+      "tools": [
+        {
+          "rank": 1,
+          "name": "Lovable",
+          "slug": "lovable",
+          "url": "https://lovable.dev",
+          "description": "Prompt-to-full-stack web app builder with Supabase integration.",
+          "best_for": "Non-coders shipping SaaS MVPs",
+          "rank_reason": "Best polish for full-stack MVPs",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/lovable/"
+        },
+        {
+          "rank": 2,
+          "name": "Bolt.new",
+          "slug": "bolt-new",
+          "url": "https://bolt.new",
+          "description": "In-browser prompt-to-app builder by StackBlitz.",
+          "best_for": "Quick prototypes in the browser",
+          "rank_reason": "Fast, runs full dev env in browser",
+          "pricing": "Free; Pro $25/mo; Teams $30/member/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/bolt-new/"
+        },
+        {
+          "rank": 3,
+          "name": "v0",
+          "slug": "v0",
+          "url": "https://v0.app",
+          "description": "Vercel's AI assistant for designing and shipping full-stack web apps.",
+          "best_for": "React/Next.js UIs",
+          "rank_reason": "Great UI output, Vercel deploy",
+          "pricing": "Free; Plus $30/user/mo; Business $100/user/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/v0/"
+        },
+        {
+          "rank": 4,
+          "name": "Replit",
+          "slug": "replit",
+          "url": "https://replit.com",
+          "description": "Cloud IDE with Replit Agent that builds and hosts apps.",
+          "best_for": "Build + host in one place",
+          "rank_reason": "All-in-one, hosting included",
+          "pricing": "Core $20/mo ($18 annual); Pro $100/mo ($90 annual)",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/replit/"
+        },
+        {
+          "rank": 5,
+          "name": "Coderblock",
+          "slug": "coderblock",
+          "url": "https://coderblock.ai",
+          "description": "Vibe coding platform building full-stack apps with an 'AI team'.",
+          "best_for": "Experimenters",
+          "rank_reason": "Newcomer (launched Oct 2026)",
+          "pricing": "Community free; Pro $20/mo, Business $40/mo (launch discount, billed yearly)",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/coderblock/"
+        }
+      ]
+    },
+    {
+      "name": "Deploy & hosting",
+      "slug": "best-deploy-hosting-for-ai-apps",
+      "url": "https://shipstack.tools/best-deploy-hosting-for-ai-apps/",
+      "tools": [
+        {
+          "rank": 1,
+          "name": "Vercel",
+          "slug": "vercel",
+          "url": "https://vercel.com",
+          "description": "Frontend cloud for Next.js and web apps with preview deploys.",
+          "best_for": "Next.js / frontend apps",
+          "rank_reason": "Best DX for frontend deploys",
+          "pricing": "Hobby free; Pro $20/mo + usage",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/vercel/"
+        },
+        {
+          "rank": 2,
+          "name": "Netlify",
+          "slug": "netlify",
+          "url": "https://www.netlify.com",
+          "description": "Web platform for deploying sites and serverless functions.",
+          "best_for": "Static & Jamstack sites",
+          "rank_reason": "Simple, generous for static",
+          "pricing": "Free; Personal $9/mo; Pro $20/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/netlify/"
+        },
+        {
+          "rank": 3,
+          "name": "Cloudflare Workers & Pages",
+          "slug": "cloudflare-workers-pages",
+          "url": "https://workers.cloudflare.com",
+          "description": "Edge compute and static hosting on Cloudflare's network.",
+          "best_for": "Global edge apps, low cost",
+          "rank_reason": "Fast edge, wide platform",
+          "pricing": "Free plan; Workers Paid from $5/mo + usage",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/cloudflare-workers-pages/"
+        },
+        {
+          "rank": 4,
+          "name": "Railway",
+          "slug": "railway",
+          "url": "https://railway.com",
+          "description": "Deploy apps, databases and services from a repo.",
+          "best_for": "Backends and full-stack apps",
+          "rank_reason": "Easiest for servers + DBs",
+          "pricing": "Free trial ($5 credit); Hobby $5/mo min usage; Pro $20/mo min usage",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/railway/"
+        },
+        {
+          "rank": 5,
+          "name": "Render",
+          "slug": "render",
+          "url": "https://render.com",
+          "description": "Cloud platform for web services, workers and databases.",
+          "best_for": "Heroku-style deploys",
+          "rank_reason": "Reliable, straightforward",
+          "pricing": "Hobby $0 + compute; Pro $25/mo + compute; Org $499/mo + compute",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/render/"
+        },
+        {
+          "rank": 6,
+          "name": "Fly.io",
+          "slug": "fly-io",
+          "url": "https://fly.io",
+          "description": "Runs app containers (Machines) worldwide; now pitched as 'computers for agents' with Sprites sandboxes.",
+          "best_for": "Containerized global apps",
+          "rank_reason": "Powerful but more ops",
+          "pricing": "Usage-based; shared-cpu-1x 256MB from ~$2.19/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/fly-io/"
+        }
+      ]
+    },
+    {
+      "name": "Backend, database & auth",
+      "slug": "best-backend-database-auth",
+      "url": "https://shipstack.tools/best-backend-database-auth/",
+      "tools": [
+        {
+          "rank": 1,
+          "name": "Supabase",
+          "slug": "supabase",
+          "url": "https://supabase.com",
+          "description": "Postgres backend with auth, storage, and realtime.",
+          "best_for": "Default backend for vibe-coded apps",
+          "rank_reason": "Most integrated with AI builders",
+          "pricing": "Free; Pro from $25/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/supabase/"
+        },
+        {
+          "rank": 2,
+          "name": "Firebase",
+          "slug": "firebase",
+          "url": "https://firebase.google.com",
+          "description": "Google's app backend: auth, Firestore, hosting.",
+          "best_for": "Mobile and realtime apps",
+          "rank_reason": "Mature, broad feature set",
+          "pricing": "No-cost tier; pay-as-you-go beyond free quotas",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/firebase/"
+        },
+        {
+          "rank": 3,
+          "name": "Convex",
+          "slug": "convex",
+          "url": "https://www.convex.dev",
+          "description": "Reactive TypeScript backend platform for apps and agents.",
+          "best_for": "Realtime TS apps",
+          "rank_reason": "Great DX, typesafe",
+          "pricing": "Free/Starter pay-as-you-go; Professional $25/dev/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/convex/"
+        },
+        {
+          "rank": 4,
+          "name": "Neon",
+          "slug": "neon",
+          "url": "https://neon.com",
+          "description": "Serverless, branchable Postgres (Lakebase) plus auth, functions, storage and an AI Gateway.",
+          "best_for": "Postgres with preview branches",
+          "rank_reason": "Branching fits agent workflows",
+          "pricing": "Free; Launch & Scale usage-based (from $0.106/CU-hr)",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/neon/"
+        },
+        {
+          "rank": 5,
+          "name": "Clerk",
+          "slug": "clerk",
+          "url": "https://clerk.com",
+          "description": "Drop-in authentication and user management.",
+          "best_for": "Adding auth fast",
+          "rank_reason": "Best prebuilt auth UI",
+          "pricing": "Free (up to 50K users); Pro $20/mo (annual)",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/clerk/"
+        }
+      ]
+    },
+    {
+      "name": "Design-to-code",
+      "slug": "best-design-to-code-tools",
+      "url": "https://shipstack.tools/best-design-to-code-tools/",
+      "tools": [
+        {
+          "rank": 1,
+          "name": "Figma Make",
+          "slug": "figma-make",
+          "url": "https://www.figma.com/make/",
+          "description": "Figma's prompt-to-app/prototype tool.",
+          "best_for": "Designers prototyping",
+          "rank_reason": "Native to Figma workflows",
+          "pricing": "Free starter; Professional full seat $16/mo (incl. AI credits)",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/figma-make/"
+        },
+        {
+          "rank": 2,
+          "name": "Builder.io",
+          "slug": "builder-io",
+          "url": "https://www.builder.io",
+          "description": "Collaborative platform for building software with AI agents, including Figma-to-code.",
+          "best_for": "Figma-to-code for teams",
+          "rank_reason": "Strong design-to-code pipeline",
+          "pricing": "Free; Pro $24/user/mo; Team $40/user/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/builder-io/"
+        },
+        {
+          "rank": 3,
+          "name": "Locofy",
+          "slug": "locofy",
+          "url": "https://www.locofy.ai",
+          "description": "Converts designs into frontend code.",
+          "best_for": "Converting existing designs",
+          "rank_reason": "Focused converter",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/locofy/"
+        },
+        {
+          "rank": 4,
+          "name": "Anima",
+          "slug": "anima",
+          "url": "https://www.animaapp.com",
+          "description": "Design-aware AI agent that generates production code from Figma files, URLs or prompts.",
+          "best_for": "Designer handoff",
+          "rank_reason": "Long-running, reliable output",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/anima/"
+        }
+      ]
+    },
+    {
+      "name": "AI APIs & models",
+      "slug": "best-ai-apis-models",
+      "url": "https://shipstack.tools/best-ai-apis-models/",
+      "tools": [
+        {
+          "rank": 1,
+          "name": "Anthropic API (Claude)",
+          "slug": "anthropic-api-claude",
+          "url": "https://claude.com/platform/api",
+          "description": "Claude Platform: Claude models plus managed agent harness and infrastructure via API.",
+          "best_for": "Coding and agentic tasks",
+          "rank_reason": "Top-tier coding performance",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/anthropic-api-claude/"
+        },
+        {
+          "rank": 2,
+          "name": "OpenAI API",
+          "slug": "openai-api",
+          "url": "https://platform.openai.com",
+          "description": "API for GPT models, images, audio and agents.",
+          "best_for": "General-purpose apps",
+          "rank_reason": "Broadest ecosystem",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/openai-api/"
+        },
+        {
+          "rank": 3,
+          "name": "Gemini API",
+          "slug": "gemini-api",
+          "url": "https://ai.google.dev",
+          "description": "Google's Gemini models via AI Studio and API.",
+          "best_for": "Long-context and multimodal",
+          "rank_reason": "Gemini 4 Argon now available",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/gemini-api/"
+        },
+        {
+          "rank": 4,
+          "name": "OpenRouter",
+          "slug": "openrouter",
+          "url": "https://openrouter.ai",
+          "description": "Unified API to hundreds of models.",
+          "best_for": "Model switching / comparisons",
+          "rank_reason": "One key, many models",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/openrouter/"
+        },
+        {
+          "rank": 5,
+          "name": "Groq",
+          "slug": "groq",
+          "url": "https://groq.com",
+          "description": "Inference cloud focused on very fast, low-latency model serving.",
+          "best_for": "Low-latency apps",
+          "rank_reason": "Speed leader for open models",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/groq/"
+        }
+      ]
+    },
+    {
+      "name": "Agent frameworks",
+      "slug": "best-agent-frameworks",
+      "url": "https://shipstack.tools/best-agent-frameworks/",
+      "tools": [
+        {
+          "rank": 1,
+          "name": "LangGraph",
+          "slug": "langgraph",
+          "url": "https://www.langchain.com/langgraph",
+          "description": "Framework for stateful, graph-based agents.",
+          "best_for": "Complex controllable agents",
+          "rank_reason": "Most production-proven",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/langgraph/"
+        },
+        {
+          "rank": 2,
+          "name": "OpenAI Agents SDK",
+          "slug": "openai-agents-sdk",
+          "url": "https://openai.github.io/openai-agents-python/",
+          "description": "Lightweight SDK for multi-agent workflows.",
+          "best_for": "Simple agent apps",
+          "rank_reason": "Minimal and practical",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/openai-agents-sdk/"
+        },
+        {
+          "rank": 3,
+          "name": "Vercel AI SDK",
+          "slug": "vercel-ai-sdk",
+          "url": "https://ai-sdk.dev",
+          "description": "TypeScript toolkit for AI apps and agents.",
+          "best_for": "TS/Next.js builders",
+          "rank_reason": "Best for web apps",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/vercel-ai-sdk/"
+        },
+        {
+          "rank": 4,
+          "name": "Mastra",
+          "slug": "mastra",
+          "url": "https://mastra.ai",
+          "description": "TypeScript agent framework with workflows and memory.",
+          "best_for": "TS agent backends",
+          "rank_reason": "Batteries-included TS",
+          "pricing": "Open source (Apache 2.0); cloud Starter free; Teams $250/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/mastra/"
+        },
+        {
+          "rank": 5,
+          "name": "CrewAI",
+          "slug": "crewai",
+          "url": "https://www.crewai.com",
+          "description": "Framework for role-based multi-agent crews.",
+          "best_for": "Multi-agent prototypes",
+          "rank_reason": "Easy multi-agent setup",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/crewai/"
+        },
+        {
+          "rank": 6,
+          "name": "CopilotKit",
+          "slug": "copilotkit",
+          "url": "https://www.copilotkit.ai",
+          "description": "Frontend stack for in-app agents via the AG-UI protocol; new CLiF learns skills from trajectories.",
+          "best_for": "Agent UIs in your product",
+          "rank_reason": "Frontend-agent specialist",
+          "pricing": "Free tier; Pro $39/mo; Team $100/seat/mo",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/copilotkit/"
+        }
+      ]
+    },
+    {
+      "name": "Testing & debugging",
+      "slug": "best-ai-testing-debugging-tools",
+      "url": "https://shipstack.tools/best-ai-testing-debugging-tools/",
+      "tools": [
+        {
+          "rank": 1,
+          "name": "Sentry",
+          "slug": "sentry",
+          "url": "https://sentry.io",
+          "description": "Error monitoring and performance tracing, with AI debugging (Seer).",
+          "best_for": "Production error tracking",
+          "rank_reason": "Industry standard",
+          "pricing": "Developer free; Team $26/mo; Business $80/mo (annual)",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/sentry/"
+        },
+        {
+          "rank": 2,
+          "name": "Playwright",
+          "slug": "playwright",
+          "url": "https://playwright.dev",
+          "description": "Open-source end-to-end browser testing framework.",
+          "best_for": "E2E tests agents can write",
+          "rank_reason": "Free, agent-friendly",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/playwright/"
+        },
+        {
+          "rank": 3,
+          "name": "CodeRabbit",
+          "slug": "coderabbit",
+          "url": "https://www.coderabbit.ai",
+          "description": "AI code review on pull requests.",
+          "best_for": "Catching bugs in AI-written PRs",
+          "rank_reason": "Popular AI PR reviewer",
+          "pricing": "Paid tiers $24, $48, $72/user/mo (annual)",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/coderabbit/"
+        },
+        {
+          "rank": 4,
+          "name": "LangSmith",
+          "slug": "langsmith",
+          "url": "https://www.langchain.com/langsmith/observability",
+          "description": "Tracing and evals for LLM apps.",
+          "best_for": "Debugging agents",
+          "rank_reason": "Deep agent observability",
+          "pricing": "Developer free (1 seat); Plus $39/seat/mo + usage",
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/langsmith/"
+        },
+        {
+          "rank": 5,
+          "name": "QA Wolf",
+          "slug": "qa-wolf",
+          "url": "https://www.qawolf.com",
+          "description": "AI testing platform that maps, writes and runs E2E tests for web and mobile apps.",
+          "best_for": "Outsourced test coverage",
+          "rank_reason": "Managed, but pricier",
+          "pricing": null,
+          "verified_date": "2026-10-13",
+          "page": "https://shipstack.tools/tools/qa-wolf/"
+        }
+      ]
+    }
+  ],
+  "new_this_week": [
+    {
+      "name": "Hermes Agent v0.22.0",
+      "date": "2026-10-14",
+      "category": "Agent frameworks",
+      "summary": "Nous Research's open agent adds keyless guided onboarding, Gmail/Linear/Notion connectors, one-click local llama.cpp models and a 600-plugin catalog.",
+      "source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0"
+    },
+    {
+      "name": "Claude Platform: OpenTelemetry traces (public beta)",
+      "date": "2026-10-14",
+      "category": "AI APIs & models",
+      "summary": "Send OTel traces from Claude Managed Agents, the Messages API and Claude SDKs to any observability tool.",
+      "source": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform"
+    },
+    {
+      "name": "Claude Code 2.1.299",
+      "date": "2026-10-14",
+      "category": "AI coding agents & IDEs",
+      "summary": "Idle compaction for 200K+ token conversations, file-mention controls, and /effort, /fast, /model in agent view.",
+      "source": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "name": "Tiden",
+      "date": "2026-10-14",
+      "category": "Testing & debugging",
+      "summary": "Intent verification for coding agents: versioned requirements checked by tests in your environment (#6 on Product Hunt).",
+      "source": "https://www.producthunt.com/products/tiden"
+    },
+    {
+      "name": "Reason",
+      "date": "2026-10-14",
+      "category": "AI coding agents & IDEs",
+      "summary": "Cloud or local coding agent that writes code, runs tests and opens PRs from Mac app, terminal, web or Slack.",
+      "source": "https://www.producthunt.com/products/dereference-the-100x-ide"
+    },
+    {
+      "name": "Epherem",
+      "date": "2026-10-14",
+      "category": "Testing & debugging",
+      "summary": "Free security scanner for AI-built apps: auth, database, exposed keys and vulnerable packages, with fix prompts.",
+      "source": "https://hunted.space/product/epherem"
+    },
+    {
+      "name": "Gemini 4 Argon in GitHub Copilot",
+      "date": "2026-10-13",
+      "category": "AI coding agents & IDEs",
+      "summary": "GA for Copilot Pro+, Max, Business and Enterprise across VS Code, CLI, coding agent, JetBrains and Xcode.",
+      "source": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/"
+    },
+    {
+      "name": "GitLab Duo agent orchestration",
+      "date": "2026-10-13",
+      "category": "AI coding agents & IDEs",
+      "summary": "Goal-driven flows run work end to end through review, tests, security scans and approvals; Custom Flows GA.",
+      "source": "https://about.gitlab.com/blog/gitlab-agent-orchestration/"
+    },
+    {
+      "name": "Gemini 4 Argon (API + Antigravity)",
+      "date": "2026-10-13",
+      "category": "AI APIs & models",
+      "summary": "Google's frontier model for long-horizon software engineering, in the Gemini API and Antigravity.",
+      "source": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+    },
+    {
+      "name": "CodeRabbit on Cursor Origin",
+      "date": "2026-10-13",
+      "category": "Testing & debugging",
+      "summary": "CodeRabbit becomes a launch partner reviewing PRs hosted on Cursor Origin.",
+      "source": "https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin"
+    },
+    {
+      "name": "Supabase joins SpaceXAI Partner Network",
+      "date": "2026-10-13",
+      "category": "Backend, database & auth",
+      "summary": "Grok Bot + Cursor can ship changes to Supabase backends via the Supabase MCP server.",
+      "source": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot"
+    },
+    {
+      "name": "AWS AI/ML skill in Agent Toolkit for AWS",
+      "date": "2026-10-13",
+      "category": "AI coding agents & IDEs",
+      "summary": "Coding agents can train and deploy SageMaker models via natural language.",
+      "source": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/"
+    },
+    {
+      "name": "CopilotKit CLiF (early access)",
+      "date": "2026-10-13",
+      "category": "Agent frameworks",
+      "summary": "Turns agent/user trajectories into reviewable SKILL.md skills.",
+      "source": "https://www.copilotkit.ai/blog/introducing-clif"
+    },
+    {
+      "name": "OpenCode 2.0",
+      "date": "2026-10-12",
+      "category": "AI coding agents & IDEs",
+      "summary": "Open-source coding agent gets a shared background service across terminal/web/desktop, rebuilt API, SDK and background subagents.",
+      "source": "https://www.techdebrief.co/ai-apps/opencode-20-launches-with-shared-background-service-rebuilt--46bc58e6-ee8f-4d1e-8c33-3e25d0a18fdb"
+    },
+    {
+      "name": "AWS Lambda Web Functions",
+      "date": "2026-10-12",
+      "category": "Deploy & hosting",
+      "summary": "Deploy standard Node.js HTTP apps to Lambda with one command, multi-region.",
+      "source": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/"
+    },
+    {
+      "name": "Databricks agent memory pipelines (Beta)",
+      "date": "2026-10-12",
+      "category": "Agent frameworks",
+      "summary": "Distills conversations into durable agent memory.",
+      "source": "https://releases.fru.dev/releases/agent-bricks-2026-10-12-agent-memory-pipelines-are-in-beta"
+    },
+    {
+      "name": "BerriAI LiteReview (open source)",
+      "date": "2026-10-11",
+      "category": "Testing & debugging",
+      "summary": "Self-hosted AI PR review agents running in Modal sandboxes.",
+      "source": "https://sourcebento.com/news/berriai-releases-litereview-for-self-hosted-ai-pull-request-analysis"
+    },
+    {
+      "name": "Neon AI Gateway: all models on prepaid credits",
+      "date": "2026-10-09",
+      "category": "Backend, database & auth",
+      "summary": "Paid plans can call every model in Neon's AI Gateway without requesting access.",
+      "source": "https://neon.com/docs/changelog/2026-10-09"
+    },
+    {
+      "name": "Lovable: cross-chat references & tasks",
+      "date": "2026-10-09",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Reference another chat or send it a task with @.",
+      "source": "https://releases.fru.dev/releases/lovable-2026-10-09-reference-another-chat-or-send-it-a-task"
+    },
+    {
+      "name": "Lovable: 9 new app + chat connectors",
+      "date": "2026-10-08",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom.",
+      "source": "https://releases.fru.dev/releases/lovable-2026-10-08-app-chat-connectors-zendesk-neon-motherduck-oracle-autonomous-ai-databas"
+    },
+    {
+      "name": "Vallic Cloud",
+      "date": "2026-10-08",
+      "category": "Deploy & hosting",
+      "summary": "Managed hosting platform with Git deploys from a single vallic.yaml.",
+      "source": "https://vallic.com/blog/vallic-cloud-live-all-infrastructure-almost-none-ops-115"
+    },
+    {
+      "name": "Tessl Code Review",
+      "date": "2026-10-08",
+      "category": "Testing & debugging",
+      "summary": "Code review standards as repo-based 'lenses' routed by file path.",
+      "source": "https://wpnews.pro/news/a-context-driven-code-review-that-learns-and-improves-on-every-run"
+    },
+    {
+      "name": "Garuda",
+      "date": "2026-10-08",
+      "category": "AI coding agents & IDEs",
+      "summary": "Open-source coding agent with OS-level sandbox (Apache-2.0).",
+      "source": "https://madhu-sv.github.io/garuda/blog/introducing-garuda/"
+    },
+    {
+      "name": "Playwright v1.64",
+      "date": "2026-10-07",
+      "category": "Testing & debugging",
+      "summary": "WebMCP tool testing, --shuffle, locator.within(), VP9 videos.",
+      "source": "https://github.com/microsoft/playwright/releases"
+    },
+    {
+      "name": "Coderblock",
+      "date": "2026-10-07",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Vibe coding platform launched on Product Hunt.",
+      "source": "https://coderblock.ai/news/coderblock-launches-on-product-hunt"
+    },
+    {
+      "name": "Wissly Code",
+      "date": "2026-10-07",
+      "category": "AI coding agents & IDEs",
+      "summary": "Coding agent running on a local LLM inside your network.",
+      "source": "https://www.wissly.ai/en/blog/wissly-code-launch"
+    }
+  ]
+}

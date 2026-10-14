@@ -12,7 +12,7 @@ for c in cats:
   c["slug"]=SLUG[c["name"]]
   for t in c["tools"]: t["slug"]=tslug(t["name"]); t["category"]=c["name"]
 alltools=[t for c in cats for t in c["tools"]]
-GENERATED=["index.html","advertise","tools","api","llms.txt","llms-full.txt","sitemap.xml","robots.txt"]+list(SLUG.values())
+GENERATED=["index.html","advertise","tools","api","data","llms.txt","llms-full.txt","sitemap.xml","robots.txt"]+list(SLUG.values())
 KEEP={os.path.join("api","subscribe.js")}  # serverless functions preserved across builds
 for g in GENERATED:
   p=os.path.join(ROOT,g)
@@ -95,6 +95,9 @@ page("/advertise/","Advertise on ShipStack — reach vibe coders and AI builders
 os.makedirs("api",exist_ok=True)
 api={"name":"ShipStack","url":SITE,"updated":UPD,"license":"Editorial data; please attribute ShipStack","categories":[{"name":c["name"],"slug":c["slug"],"url":f'{SITE}/{c["slug"]}/',"tools":[{k:t.get(k) for k in ["rank","name","slug","url","description","best_for","rank_reason","pricing","verified_date"]}|{"page":f'{SITE}/tools/{t["slug"]}/'} for t in c["tools"]]} for c in cats],"new_this_week":d["new_this_week"]}
 json.dump(api,open("api/tools.json","w"),indent=2)
+# Vercel treats /api as functions, so static api/tools.json 404s; serve it from /data via a rewrite in vercel.json
+os.makedirs("data",exist_ok=True)
+json.dump(api,open("data/tools.json","w"),indent=2)
 L=[f"# ShipStack\n\n> ShipStack (shipstack.tools) ranks AI tools by use case for vibe coders and builders, and tracks new AI tool launches weekly. Data verified {UPD}. Rankings are editorial; sponsorships never affect rank.\n\n## Data\n- [Tools JSON API]({SITE}/api/tools.json): all tools, ranks, verified pricing\n- [Full text for LLMs]({SITE}/llms-full.txt)\n\n## Categories"]
 L+= [f'- [Best {c["name"]}]({SITE}/{c["slug"]}/): top pick {c["tools"][0]["name"]}' for c in cats]
 open("llms.txt","w").write("\n".join(L)+"\n")

@@ -1,5 +1,15 @@
 {
   "redirects": [
-    { "source": "/book", "destination": "https://buy.stripe.com/5kQ9AU0r44JD4NFbVb38400", "permanent": false }
+    {
+      "source": "/book",
+      "destination": "https://buy.stripe.com/5kQ9AU0r44JD4NFbVb38400",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/tools.json",
+      "destination": "/data/tools.json"
+    }
   ]
 }
