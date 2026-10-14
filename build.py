@@ -29,11 +29,11 @@ def page(path,title,desc,body,jsonld=()):
   h=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="ShipStack"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/preview.png">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/preview.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@shipstacktools"><meta name="twitter:creator" content="@shipstacktools"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/preview.png">
 <link rel="alternate" type="application/json" href="/api/tools.json"><link rel="stylesheet" href="/style.css">{"".join(ld(j) for j in jsonld)}</head><body>
 <header><a class="logo" href="/">⚡ ShipStack</a><nav><a href="/#tools">Tools</a><a href="/#new">New this week</a><a href="/advertise/">Advertise</a><a href="/#signup">Newsletter</a></nav></header>
 {body}
-<footer><p>{" · ".join(f'<a href="/{c["slug"]}/">{e(c["name"])}</a>' for c in cats)}</p><p>© 2026 shipstack.tools · Rankings are editorial opinions · Data verified {UPD} · <a href="/api/tools.json">API</a> · <a href="/llms.txt">llms.txt</a> · <a href="/advertise/">Advertise</a></p><p class="small">Some links may become affiliate links in future; this will be disclosed on each link.</p></footer><script src="/app.js"></script></body></html>'''
+<footer><p>{" · ".join(f'<a href="/{c["slug"]}/">{e(c["name"])}</a>' for c in cats)}</p><p>© 2026 shipstack.tools · Rankings are editorial opinions · Data verified {UPD} · <a href="/api/tools.json">API</a> · <a href="/llms.txt">llms.txt</a> · <a href="/advertise/">Advertise</a> · <a href="https://x.com/shipstacktools" rel="me">Follow @shipstacktools on X</a></p><p class="small">Some links may become affiliate links in future; this will be disclosed on each link.</p></footer><script src="/app.js"></script></body></html>'''
   out=os.path.join(ROOT,path.lstrip("/"),"index.html") if path.endswith("/") else os.path.join(ROOT,path.lstrip("/"))
   os.makedirs(os.path.dirname(out),exist_ok=True); open(out,"w").write(h)
 def link(t): return t["affiliate_url"] or t["url"]
@@ -61,7 +61,7 @@ SUB='''<section id="signup"><h2>Get the weekly ShipStack drop</h2><p>New tools a
 btns='<button class="f on" data-c="all">All</button>'+"".join(f'<button class="f" data-c="{e(c["name"])}">{e(c["name"])}</button>' for c in cats)
 news="".join(f'<li><time>{n["date"]}</time><div><span class="tag">{e(n["category"])}</span> <b>{e(n["name"])}</b> — {e(n["summary"])} <a href="{e(n["source"])}" target="_blank" rel="noopener">source</a></div></li>' for n in d["new_this_week"])
 catlinks="".join(f'<a class="catlink" href="/{c["slug"]}/"><b>{e(c["name"])}</b><span>Top pick: {e(c["tools"][0]["name"])}</span></a>' for c in cats)
-home_ld=[{"@context":"https://schema.org","@type":"WebSite","name":"ShipStack","url":SITE+"/"},
+home_ld=[{"@context":"https://schema.org","@type":"WebSite","name":"ShipStack","url":SITE+"/"},{"@context":"https://schema.org","@type":"Organization","name":"ShipStack","url":SITE+"/","email":"shipstack.tools@gmail.com","sameAs":["https://x.com/shipstacktools"]},
  {"@context":"https://schema.org","@type":"ItemList","name":"Top AI tools for builders by category","itemListElement":[{"@type":"ListItem","position":i+1,"name":c["name"],"url":f'{SITE}/{c["slug"]}/'} for i,c in enumerate(cats)]}]
 page("/","ShipStack — AI tools for vibe coders, ranked by use case",f"Ranked directory of {len(alltools)} verified AI tools for vibe coders and builders across {len(cats)} categories, plus new AI tool launches every week.",
  f'<section class="hero"><h1>The AI stack for vibe coders, <span>ranked by use case.</span></h1><p>{len(alltools)} tools across {len(cats)} categories · every tool verified against its official site · updated {UPD}</p><input id="q" placeholder="Search tools, e.g. auth, deploy, agent…" aria-label="Search tools"></section>'
