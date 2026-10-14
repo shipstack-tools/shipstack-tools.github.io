@@ -33,7 +33,7 @@ def page(path,title,desc,body,jsonld=()):
 <link rel="alternate" type="application/json" href="/api/tools.json"><link rel="stylesheet" href="/style.css">{"".join(ld(j) for j in jsonld)}</head><body>
 <header><a class="logo" href="/">⚡ ShipStack</a><nav><a href="/#tools">Tools</a><a href="/#new">New this week</a><a href="/advertise/">Advertise</a><a href="/#signup">Newsletter</a></nav></header>
 {body}
-<footer><p>{" · ".join(f'<a href="/{c["slug"]}/">{e(c["name"])}</a>' for c in cats)}</p><p>© 2026 shipstack.tools · Rankings are editorial opinions · Data verified {UPD} · <a href="/api/tools.json">API</a> · <a href="/llms.txt">llms.txt</a> · <a href="/advertise/">Advertise</a> · <a href="https://x.com/shipstacktools" rel="me">Follow @shipstacktools on X</a></p><p class="small">Some links may become affiliate links in future; this will be disclosed on each link.</p></footer><script src="/app.js"></script></body></html>'''
+<footer><p>{" · ".join(f'<a href="/{c["slug"]}/">{e(c["name"])}</a>' for c in cats)}</p><p>© 2026 shipstack.tools · Rankings are editorial opinions · Data verified {UPD} · <a href="/api/tools.json">API</a> · <a href="/llms.txt">llms.txt</a> · <a href="/advertise/">Advertise</a> · <a href="https://x.com/shipstacktools" rel="me">Follow @shipstacktools on X</a></p><p class="small">Some links are affiliate links: if you sign up through them, ShipStack may earn a commission at no cost to you. Affiliate links never affect our rankings.</p></footer><script src="/app.js"></script></body></html>'''
   out=os.path.join(ROOT,path.lstrip("/"),"index.html") if path.endswith("/") else os.path.join(ROOT,path.lstrip("/"))
   os.makedirs(os.path.dirname(out),exist_ok=True); open(out,"w").write(h)
 def link(t): return t["affiliate_url"] or t["url"]
