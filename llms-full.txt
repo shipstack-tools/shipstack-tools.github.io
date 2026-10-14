@@ -1,0 +1,107 @@
+# ShipStack — full directory (verified 2026-10-13)
+
+
+## Best AI coding agents & IDEs
+
+Best for writing and refactoring code with AI: Cursor.
+
+1. Cursor (https://cursor.com) — AI coding agent and editor with cloud agents, automations and Bugbot code review. Best for: Daily driver IDE for builders. Why: Most mature agentic IDE experience. Pricing: Free; Plus $8/mo (Grok models only); Premium $30/mo; Super $100/mo; Ultra $200/mo; Teams from $30/user/mo.
+2. Claude Code (https://claude.com/product/claude-code) — Anthropic's agentic coding tool for terminal and IDE: understands your codebase, edits files, runs commands. Best for: Large refactors from the CLI. Why: Strong autonomous multi-file edits. Pricing: Claude Free; Pro $20/mo ($17/mo annual); Max from $100/mo.
+3. OpenAI Codex (https://openai.com/codex) — OpenAI's coding agent across ChatGPT, CLI, IDE extension and cloud; runs parallel agents and reviews PRs. Best for: Delegating parallel tasks. Why: Cloud + local agent flexibility. Pricing: Included with ChatGPT Plus ($20) and Pro ($100); Business $20/seat (annual, 2+ seats).
+4. GitHub Copilot (https://github.com/features/copilot) — AI coding agent that works from issue to merged PR, in your editor, terminal and on GitHub. Best for: Teams already on GitHub. Why: Broadest editor/GitHub integration. Pricing: Free; Pro $10/mo; Pro+ $39/mo; Max $100/mo.
+5. Google Antigravity (https://antigravity.google) — Google's agent-first development platform (desktop app & CLI); now runs Gemini 4 Argon for AI Ultra subscribers. Best for: Trying Gemini-powered agents. Why: New, fast-moving, Gemini-native.
+6. Devin Desktop (formerly Windsurf) (https://devin.ai/desktop) — Windsurf was renamed Devin Desktop on Jun 2, 2026: a full IDE plus an Agent Command Center for local and cloud agents. Best for: Cursor alternative. Why: Rebranded from Windsurf; strong multi-agent manager, smaller ecosystem. Pricing: Free; Pro $20/mo; Max $200/mo; Teams $80/mo + $40/seat.
+
+## Best App builders (prompt-to-app)
+
+Best for turning a prompt into a working app: Lovable.
+
+1. Lovable (https://lovable.dev) — Prompt-to-full-stack web app builder with Supabase integration. Best for: Non-coders shipping SaaS MVPs. Why: Best polish for full-stack MVPs.
+2. Bolt.new (https://bolt.new) — In-browser prompt-to-app builder by StackBlitz. Best for: Quick prototypes in the browser. Why: Fast, runs full dev env in browser. Pricing: Free; Pro $25/mo; Teams $30/member/mo.
+3. v0 (https://v0.app) — Vercel's AI assistant for designing and shipping full-stack web apps. Best for: React/Next.js UIs. Why: Great UI output, Vercel deploy. Pricing: Free; Plus $30/user/mo; Business $100/user/mo.
+4. Replit (https://replit.com) — Cloud IDE with Replit Agent that builds and hosts apps. Best for: Build + host in one place. Why: All-in-one, hosting included. Pricing: Core $20/mo ($18 annual); Pro $100/mo ($90 annual).
+5. Coderblock (https://coderblock.ai) — Vibe coding platform building full-stack apps with an 'AI team'. Best for: Experimenters. Why: Newcomer (launched Oct 2026). Pricing: Community free; Pro $20/mo, Business $40/mo (launch discount, billed yearly).
+
+## Best Deploy & hosting
+
+Best for deploying AI-built apps: Vercel.
+
+1. Vercel (https://vercel.com) — Frontend cloud for Next.js and web apps with preview deploys. Best for: Next.js / frontend apps. Why: Best DX for frontend deploys. Pricing: Hobby free; Pro $20/mo + usage.
+2. Netlify (https://www.netlify.com) — Web platform for deploying sites and serverless functions. Best for: Static & Jamstack sites. Why: Simple, generous for static. Pricing: Free; Personal $9/mo; Pro $20/mo.
+3. Cloudflare Workers & Pages (https://workers.cloudflare.com) — Edge compute and static hosting on Cloudflare's network. Best for: Global edge apps, low cost. Why: Fast edge, wide platform. Pricing: Free plan; Workers Paid from $5/mo + usage.
+4. Railway (https://railway.com) — Deploy apps, databases and services from a repo. Best for: Backends and full-stack apps. Why: Easiest for servers + DBs. Pricing: Free trial ($5 credit); Hobby $5/mo min usage; Pro $20/mo min usage.
+5. Render (https://render.com) — Cloud platform for web services, workers and databases. Best for: Heroku-style deploys. Why: Reliable, straightforward. Pricing: Hobby $0 + compute; Pro $25/mo + compute; Org $499/mo + compute.
+6. Fly.io (https://fly.io) — Runs app containers (Machines) worldwide; now pitched as 'computers for agents' with Sprites sandboxes. Best for: Containerized global apps. Why: Powerful but more ops. Pricing: Usage-based; shared-cpu-1x 256MB from ~$2.19/mo.
+
+## Best Backend, database & auth
+
+Best for adding a database and login to your app: Supabase.
+
+1. Supabase (https://supabase.com) — Postgres backend with auth, storage, and realtime. Best for: Default backend for vibe-coded apps. Why: Most integrated with AI builders. Pricing: Free; Pro from $25/mo.
+2. Firebase (https://firebase.google.com) — Google's app backend: auth, Firestore, hosting. Best for: Mobile and realtime apps. Why: Mature, broad feature set. Pricing: No-cost tier; pay-as-you-go beyond free quotas.
+3. Convex (https://www.convex.dev) — Reactive TypeScript backend platform for apps and agents. Best for: Realtime TS apps. Why: Great DX, typesafe. Pricing: Free/Starter pay-as-you-go; Professional $25/dev/mo.
+4. Neon (https://neon.com) — Serverless, branchable Postgres (Lakebase) plus auth, functions, storage and an AI Gateway. Best for: Postgres with preview branches. Why: Branching fits agent workflows. Pricing: Free; Launch & Scale usage-based (from $0.106/CU-hr).
+5. Clerk (https://clerk.com) — Drop-in authentication and user management. Best for: Adding auth fast. Why: Best prebuilt auth UI. Pricing: Free (up to 50K users); Pro $20/mo (annual).
+
+## Best Design-to-code
+
+Best for turning designs into code: Figma Make.
+
+1. Figma Make (https://www.figma.com/make/) — Figma's prompt-to-app/prototype tool. Best for: Designers prototyping. Why: Native to Figma workflows. Pricing: Free starter; Professional full seat $16/mo (incl. AI credits).
+2. Builder.io (https://www.builder.io) — Collaborative platform for building software with AI agents, including Figma-to-code. Best for: Figma-to-code for teams. Why: Strong design-to-code pipeline. Pricing: Free; Pro $24/user/mo; Team $40/user/mo.
+3. Locofy (https://www.locofy.ai) — Converts designs into frontend code. Best for: Converting existing designs. Why: Focused converter.
+4. Anima (https://www.animaapp.com) — Design-aware AI agent that generates production code from Figma files, URLs or prompts. Best for: Designer handoff. Why: Long-running, reliable output.
+
+## Best AI APIs & models
+
+Best for adding AI features via an API: Anthropic API (Claude).
+
+1. Anthropic API (Claude) (https://claude.com/platform/api) — Claude Platform: Claude models plus managed agent harness and infrastructure via API. Best for: Coding and agentic tasks. Why: Top-tier coding performance.
+2. OpenAI API (https://platform.openai.com) — API for GPT models, images, audio and agents. Best for: General-purpose apps. Why: Broadest ecosystem.
+3. Gemini API (https://ai.google.dev) — Google's Gemini models via AI Studio and API. Best for: Long-context and multimodal. Why: Gemini 4 Argon now available.
+4. OpenRouter (https://openrouter.ai) — Unified API to hundreds of models. Best for: Model switching / comparisons. Why: One key, many models.
+5. Groq (https://groq.com) — Inference cloud focused on very fast, low-latency model serving. Best for: Low-latency apps. Why: Speed leader for open models.
+
+## Best Agent frameworks
+
+Best for building your own AI agents: LangGraph.
+
+1. LangGraph (https://www.langchain.com/langgraph) — Framework for stateful, graph-based agents. Best for: Complex controllable agents. Why: Most production-proven.
+2. OpenAI Agents SDK (https://openai.github.io/openai-agents-python/) — Lightweight SDK for multi-agent workflows. Best for: Simple agent apps. Why: Minimal and practical.
+3. Vercel AI SDK (https://ai-sdk.dev) — TypeScript toolkit for AI apps and agents. Best for: TS/Next.js builders. Why: Best for web apps.
+4. Mastra (https://mastra.ai) — TypeScript agent framework with workflows and memory. Best for: TS agent backends. Why: Batteries-included TS. Pricing: Open source (Apache 2.0); cloud Starter free; Teams $250/mo.
+5. CrewAI (https://www.crewai.com) — Framework for role-based multi-agent crews. Best for: Multi-agent prototypes. Why: Easy multi-agent setup.
+6. CopilotKit (https://www.copilotkit.ai) — Frontend stack for in-app agents via the AG-UI protocol; new CLiF learns skills from trajectories. Best for: Agent UIs in your product. Why: Frontend-agent specialist. Pricing: Free tier; Pro $39/mo; Team $100/seat/mo.
+
+## Best Testing & debugging
+
+Best for testing and debugging AI-written code: Sentry.
+
+1. Sentry (https://sentry.io) — Error monitoring and performance tracing, with AI debugging (Seer). Best for: Production error tracking. Why: Industry standard. Pricing: Developer free; Team $26/mo; Business $80/mo (annual).
+2. Playwright (https://playwright.dev) — Open-source end-to-end browser testing framework. Best for: E2E tests agents can write. Why: Free, agent-friendly.
+3. CodeRabbit (https://www.coderabbit.ai) — AI code review on pull requests. Best for: Catching bugs in AI-written PRs. Why: Popular AI PR reviewer. Pricing: Paid tiers $24, $48, $72/user/mo (annual).
+4. LangSmith (https://www.langchain.com/langsmith/observability) — Tracing and evals for LLM apps. Best for: Debugging agents. Why: Deep agent observability. Pricing: Developer free (1 seat); Plus $39/seat/mo + usage.
+5. QA Wolf (https://www.qawolf.com) — AI testing platform that maps, writes and runs E2E tests for web and mobile apps. Best for: Outsourced test coverage. Why: Managed, but pricier.
+
+## New this week
+
+- 2026-10-13 — Gemini 4 Argon (API + Antigravity) [AI APIs & models]: Google's frontier model for long-horizon software engineering, in the Gemini API and Antigravity. Source: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/
+- 2026-10-13 — CodeRabbit on Cursor Origin [Testing & debugging]: CodeRabbit becomes a launch partner reviewing PRs hosted on Cursor Origin. Source: https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin
+- 2026-10-13 — Supabase joins SpaceXAI Partner Network [Backend, database & auth]: Grok Bot + Cursor can ship changes to Supabase backends via the Supabase MCP server. Source: https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot
+- 2026-10-13 — AWS AI/ML skill in Agent Toolkit for AWS [AI coding agents & IDEs]: Coding agents can train and deploy SageMaker models via natural language. Source: https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/
+- 2026-10-13 — CopilotKit CLiF (early access) [Agent frameworks]: Turns agent/user trajectories into reviewable SKILL.md skills. Source: https://www.copilotkit.ai/blog/introducing-clif
+- 2026-10-12 — AWS Lambda Web Functions [Deploy & hosting]: Deploy standard Node.js HTTP apps to Lambda with one command, multi-region. Source: https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/
+- 2026-10-12 — Databricks agent memory pipelines (Beta) [Agent frameworks]: Distills conversations into durable agent memory. Source: https://releases.fru.dev/releases/agent-bricks-2026-10-12-agent-memory-pipelines-are-in-beta
+- 2026-10-11 — BerriAI LiteReview (open source) [Testing & debugging]: Self-hosted AI PR review agents running in Modal sandboxes. Source: https://sourcebento.com/news/berriai-releases-litereview-for-self-hosted-ai-pull-request-analysis
+- 2026-10-09 — Neon AI Gateway: all models on prepaid credits [Backend, database & auth]: Paid plans can call every model in Neon's AI Gateway without requesting access. Source: https://neon.com/docs/changelog/2026-10-09
+- 2026-10-09 — Lovable: cross-chat references & tasks [App builders (prompt-to-app)]: Reference another chat or send it a task with @. Source: https://releases.fru.dev/releases/lovable-2026-10-09-reference-another-chat-or-send-it-a-task
+- 2026-10-08 — Lovable: 9 new app + chat connectors [App builders (prompt-to-app)]: Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom. Source: https://releases.fru.dev/releases/lovable-2026-10-08-app-chat-connectors-zendesk-neon-motherduck-oracle-autonomous-ai-databas
+- 2026-10-08 — Vallic Cloud [Deploy & hosting]: Managed hosting platform with Git deploys from a single vallic.yaml. Source: https://vallic.com/blog/vallic-cloud-live-all-infrastructure-almost-none-ops-115
+- 2026-10-08 — Tessl Code Review [Testing & debugging]: Code review standards as repo-based 'lenses' routed by file path. Source: https://wpnews.pro/news/a-context-driven-code-review-that-learns-and-improves-on-every-run
+- 2026-10-08 — Garuda [AI coding agents & IDEs]: Open-source coding agent with OS-level sandbox (Apache-2.0). Source: https://madhu-sv.github.io/garuda/blog/introducing-garuda/
+- 2026-10-07 — Playwright v1.64 [Testing & debugging]: WebMCP tool testing, --shuffle, locator.within(), VP9 videos. Source: https://github.com/microsoft/playwright/releases
+- 2026-10-07 — Coderblock [App builders (prompt-to-app)]: Vibe coding platform launched on Product Hunt. Source: https://coderblock.ai/news/coderblock-launches-on-product-hunt
+- 2026-10-07 — Wissly Code [AI coding agents & IDEs]: Coding agent running on a local LLM inside your network. Source: https://www.wissly.ai/en/blog/wissly-code-launch
+- 2026-10-06 — Figma agent GA [Design-to-code]: Figma's AI design agent exits beta with guidelines and multiplayer improvements. Source: https://www.theverge.com/tech/1004953/figmas-ai-agent-for-product-design-is-now-generally-available
+- 2026-10-06 — Bond v1.0.0-beta.1 [AI coding agents & IDEs]: Neuro's agentic coding platform for Windows, BYOK. Source: https://neuro-corp.com/blog/bond-ai-neuro-s-agentic-coding-platform-for-windows
+- 2026-10-06 — Tofu (Show HN) [Deploy & hosting]: Deployment platform built for agents: hosting, Postgres, domains, auth via MCP. Source: https://wpnews.pro/news/show-hn-tofu-let-your-agent-deploy-full-stack-apps

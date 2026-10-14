@@ -1,0 +1,635 @@
+{
+  "updated": "2026-10-13",
+  "categories": [
+    {
+      "name": "AI coding agents & IDEs",
+      "tools": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "description": "AI coding agent and editor with cloud agents, automations and Bugbot code review.",
+          "best_for": "Daily driver IDE for builders",
+          "rank_reason": "Most mature agentic IDE experience",
+          "rank": 1,
+          "pricing": "Free; Plus $8/mo (Grok models only); Premium $30/mo; Super $100/mo; Ultra $200/mo; Teams from $30/user/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Claude Code",
+          "url": "https://claude.com/product/claude-code",
+          "description": "Anthropic's agentic coding tool for terminal and IDE: understands your codebase, edits files, runs commands.",
+          "best_for": "Large refactors from the CLI",
+          "rank_reason": "Strong autonomous multi-file edits",
+          "rank": 2,
+          "pricing": "Claude Free; Pro $20/mo ($17/mo annual); Max from $100/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "OpenAI Codex",
+          "url": "https://openai.com/codex",
+          "description": "OpenAI's coding agent across ChatGPT, CLI, IDE extension and cloud; runs parallel agents and reviews PRs.",
+          "best_for": "Delegating parallel tasks",
+          "rank_reason": "Cloud + local agent flexibility",
+          "rank": 3,
+          "pricing": "Included with ChatGPT Plus ($20) and Pro ($100); Business $20/seat (annual, 2+ seats)",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot",
+          "description": "AI coding agent that works from issue to merged PR, in your editor, terminal and on GitHub.",
+          "best_for": "Teams already on GitHub",
+          "rank_reason": "Broadest editor/GitHub integration",
+          "rank": 4,
+          "pricing": "Free; Pro $10/mo; Pro+ $39/mo; Max $100/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Google Antigravity",
+          "url": "https://antigravity.google",
+          "description": "Google's agent-first development platform (desktop app & CLI); now runs Gemini 4 Argon for AI Ultra subscribers.",
+          "best_for": "Trying Gemini-powered agents",
+          "rank_reason": "New, fast-moving, Gemini-native",
+          "rank": 5,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Devin Desktop (formerly Windsurf)",
+          "url": "https://devin.ai/desktop",
+          "description": "Windsurf was renamed Devin Desktop on Jun 2, 2026: a full IDE plus an Agent Command Center for local and cloud agents.",
+          "best_for": "Cursor alternative",
+          "rank_reason": "Rebranded from Windsurf; strong multi-agent manager, smaller ecosystem",
+          "rank": 6,
+          "pricing": "Free; Pro $20/mo; Max $200/mo; Teams $80/mo + $40/seat",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        }
+      ]
+    },
+    {
+      "name": "App builders (prompt-to-app)",
+      "tools": [
+        {
+          "name": "Lovable",
+          "url": "https://lovable.dev",
+          "description": "Prompt-to-full-stack web app builder with Supabase integration.",
+          "best_for": "Non-coders shipping SaaS MVPs",
+          "rank_reason": "Best polish for full-stack MVPs",
+          "rank": 1,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Bolt.new",
+          "url": "https://bolt.new",
+          "description": "In-browser prompt-to-app builder by StackBlitz.",
+          "best_for": "Quick prototypes in the browser",
+          "rank_reason": "Fast, runs full dev env in browser",
+          "rank": 2,
+          "pricing": "Free; Pro $25/mo; Teams $30/member/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "v0",
+          "url": "https://v0.app",
+          "description": "Vercel's AI assistant for designing and shipping full-stack web apps.",
+          "best_for": "React/Next.js UIs",
+          "rank_reason": "Great UI output, Vercel deploy",
+          "rank": 3,
+          "pricing": "Free; Plus $30/user/mo; Business $100/user/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Replit",
+          "url": "https://replit.com",
+          "description": "Cloud IDE with Replit Agent that builds and hosts apps.",
+          "best_for": "Build + host in one place",
+          "rank_reason": "All-in-one, hosting included",
+          "rank": 4,
+          "pricing": "Core $20/mo ($18 annual); Pro $100/mo ($90 annual)",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Coderblock",
+          "url": "https://coderblock.ai",
+          "description": "Vibe coding platform building full-stack apps with an 'AI team'.",
+          "best_for": "Experimenters",
+          "rank_reason": "Newcomer (launched Oct 2026)",
+          "rank": 5,
+          "pricing": "Community free; Pro $20/mo, Business $40/mo (launch discount, billed yearly)",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        }
+      ]
+    },
+    {
+      "name": "Deploy & hosting",
+      "tools": [
+        {
+          "name": "Vercel",
+          "url": "https://vercel.com",
+          "description": "Frontend cloud for Next.js and web apps with preview deploys.",
+          "best_for": "Next.js / frontend apps",
+          "rank_reason": "Best DX for frontend deploys",
+          "rank": 1,
+          "pricing": "Hobby free; Pro $20/mo + usage",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Netlify",
+          "url": "https://www.netlify.com",
+          "description": "Web platform for deploying sites and serverless functions.",
+          "best_for": "Static & Jamstack sites",
+          "rank_reason": "Simple, generous for static",
+          "rank": 2,
+          "pricing": "Free; Personal $9/mo; Pro $20/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Cloudflare Workers & Pages",
+          "url": "https://workers.cloudflare.com",
+          "description": "Edge compute and static hosting on Cloudflare's network.",
+          "best_for": "Global edge apps, low cost",
+          "rank_reason": "Fast edge, wide platform",
+          "rank": 3,
+          "pricing": "Free plan; Workers Paid from $5/mo + usage",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Railway",
+          "url": "https://railway.com",
+          "description": "Deploy apps, databases and services from a repo.",
+          "best_for": "Backends and full-stack apps",
+          "rank_reason": "Easiest for servers + DBs",
+          "rank": 4,
+          "pricing": "Free trial ($5 credit); Hobby $5/mo min usage; Pro $20/mo min usage",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Render",
+          "url": "https://render.com",
+          "description": "Cloud platform for web services, workers and databases.",
+          "best_for": "Heroku-style deploys",
+          "rank_reason": "Reliable, straightforward",
+          "rank": 5,
+          "pricing": "Hobby $0 + compute; Pro $25/mo + compute; Org $499/mo + compute",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Fly.io",
+          "url": "https://fly.io",
+          "description": "Runs app containers (Machines) worldwide; now pitched as 'computers for agents' with Sprites sandboxes.",
+          "best_for": "Containerized global apps",
+          "rank_reason": "Powerful but more ops",
+          "rank": 6,
+          "pricing": "Usage-based; shared-cpu-1x 256MB from ~$2.19/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        }
+      ]
+    },
+    {
+      "name": "Backend, database & auth",
+      "tools": [
+        {
+          "name": "Supabase",
+          "url": "https://supabase.com",
+          "description": "Postgres backend with auth, storage, and realtime.",
+          "best_for": "Default backend for vibe-coded apps",
+          "rank_reason": "Most integrated with AI builders",
+          "rank": 1,
+          "pricing": "Free; Pro from $25/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Firebase",
+          "url": "https://firebase.google.com",
+          "description": "Google's app backend: auth, Firestore, hosting.",
+          "best_for": "Mobile and realtime apps",
+          "rank_reason": "Mature, broad feature set",
+          "rank": 2,
+          "pricing": "No-cost tier; pay-as-you-go beyond free quotas",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Convex",
+          "url": "https://www.convex.dev",
+          "description": "Reactive TypeScript backend platform for apps and agents.",
+          "best_for": "Realtime TS apps",
+          "rank_reason": "Great DX, typesafe",
+          "rank": 3,
+          "pricing": "Free/Starter pay-as-you-go; Professional $25/dev/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Neon",
+          "url": "https://neon.com",
+          "description": "Serverless, branchable Postgres (Lakebase) plus auth, functions, storage and an AI Gateway.",
+          "best_for": "Postgres with preview branches",
+          "rank_reason": "Branching fits agent workflows",
+          "rank": 4,
+          "pricing": "Free; Launch & Scale usage-based (from $0.106/CU-hr)",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Clerk",
+          "url": "https://clerk.com",
+          "description": "Drop-in authentication and user management.",
+          "best_for": "Adding auth fast",
+          "rank_reason": "Best prebuilt auth UI",
+          "rank": 5,
+          "pricing": "Free (up to 50K users); Pro $20/mo (annual)",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        }
+      ]
+    },
+    {
+      "name": "Design-to-code",
+      "tools": [
+        {
+          "name": "Figma Make",
+          "url": "https://www.figma.com/make/",
+          "description": "Figma's prompt-to-app/prototype tool.",
+          "best_for": "Designers prototyping",
+          "rank_reason": "Native to Figma workflows",
+          "rank": 1,
+          "pricing": "Free starter; Professional full seat $16/mo (incl. AI credits)",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Builder.io",
+          "url": "https://www.builder.io",
+          "description": "Collaborative platform for building software with AI agents, including Figma-to-code.",
+          "best_for": "Figma-to-code for teams",
+          "rank_reason": "Strong design-to-code pipeline",
+          "rank": 2,
+          "pricing": "Free; Pro $24/user/mo; Team $40/user/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Locofy",
+          "url": "https://www.locofy.ai",
+          "description": "Converts designs into frontend code.",
+          "best_for": "Converting existing designs",
+          "rank_reason": "Focused converter",
+          "rank": 3,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Anima",
+          "url": "https://www.animaapp.com",
+          "description": "Design-aware AI agent that generates production code from Figma files, URLs or prompts.",
+          "best_for": "Designer handoff",
+          "rank_reason": "Long-running, reliable output",
+          "rank": 4,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        }
+      ]
+    },
+    {
+      "name": "AI APIs & models",
+      "tools": [
+        {
+          "name": "Anthropic API (Claude)",
+          "url": "https://claude.com/platform/api",
+          "description": "Claude Platform: Claude models plus managed agent harness and infrastructure via API.",
+          "best_for": "Coding and agentic tasks",
+          "rank_reason": "Top-tier coding performance",
+          "rank": 1,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "OpenAI API",
+          "url": "https://platform.openai.com",
+          "description": "API for GPT models, images, audio and agents.",
+          "best_for": "General-purpose apps",
+          "rank_reason": "Broadest ecosystem",
+          "rank": 2,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Gemini API",
+          "url": "https://ai.google.dev",
+          "description": "Google's Gemini models via AI Studio and API.",
+          "best_for": "Long-context and multimodal",
+          "rank_reason": "Gemini 4 Argon now available",
+          "rank": 3,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "OpenRouter",
+          "url": "https://openrouter.ai",
+          "description": "Unified API to hundreds of models.",
+          "best_for": "Model switching / comparisons",
+          "rank_reason": "One key, many models",
+          "rank": 4,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Groq",
+          "url": "https://groq.com",
+          "description": "Inference cloud focused on very fast, low-latency model serving.",
+          "best_for": "Low-latency apps",
+          "rank_reason": "Speed leader for open models",
+          "rank": 5,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        }
+      ]
+    },
+    {
+      "name": "Agent frameworks",
+      "tools": [
+        {
+          "name": "LangGraph",
+          "url": "https://www.langchain.com/langgraph",
+          "description": "Framework for stateful, graph-based agents.",
+          "best_for": "Complex controllable agents",
+          "rank_reason": "Most production-proven",
+          "rank": 1,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "OpenAI Agents SDK",
+          "url": "https://openai.github.io/openai-agents-python/",
+          "description": "Lightweight SDK for multi-agent workflows.",
+          "best_for": "Simple agent apps",
+          "rank_reason": "Minimal and practical",
+          "rank": 2,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Vercel AI SDK",
+          "url": "https://ai-sdk.dev",
+          "description": "TypeScript toolkit for AI apps and agents.",
+          "best_for": "TS/Next.js builders",
+          "rank_reason": "Best for web apps",
+          "rank": 3,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Mastra",
+          "url": "https://mastra.ai",
+          "description": "TypeScript agent framework with workflows and memory.",
+          "best_for": "TS agent backends",
+          "rank_reason": "Batteries-included TS",
+          "rank": 4,
+          "pricing": "Open source (Apache 2.0); cloud Starter free; Teams $250/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "CrewAI",
+          "url": "https://www.crewai.com",
+          "description": "Framework for role-based multi-agent crews.",
+          "best_for": "Multi-agent prototypes",
+          "rank_reason": "Easy multi-agent setup",
+          "rank": 5,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "CopilotKit",
+          "url": "https://www.copilotkit.ai",
+          "description": "Frontend stack for in-app agents via the AG-UI protocol; new CLiF learns skills from trajectories.",
+          "best_for": "Agent UIs in your product",
+          "rank_reason": "Frontend-agent specialist",
+          "rank": 6,
+          "pricing": "Free tier; Pro $39/mo; Team $100/seat/mo",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        }
+      ]
+    },
+    {
+      "name": "Testing & debugging",
+      "tools": [
+        {
+          "name": "Sentry",
+          "url": "https://sentry.io",
+          "description": "Error monitoring and performance tracing, with AI debugging (Seer).",
+          "best_for": "Production error tracking",
+          "rank_reason": "Industry standard",
+          "rank": 1,
+          "pricing": "Developer free; Team $26/mo; Business $80/mo (annual)",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "Playwright",
+          "url": "https://playwright.dev",
+          "description": "Open-source end-to-end browser testing framework.",
+          "best_for": "E2E tests agents can write",
+          "rank_reason": "Free, agent-friendly",
+          "rank": 2,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "CodeRabbit",
+          "url": "https://www.coderabbit.ai",
+          "description": "AI code review on pull requests.",
+          "best_for": "Catching bugs in AI-written PRs",
+          "rank_reason": "Popular AI PR reviewer",
+          "rank": 3,
+          "pricing": "Paid tiers $24, $48, $72/user/mo (annual)",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "LangSmith",
+          "url": "https://www.langchain.com/langsmith/observability",
+          "description": "Tracing and evals for LLM apps.",
+          "best_for": "Debugging agents",
+          "rank_reason": "Deep agent observability",
+          "rank": 4,
+          "pricing": "Developer free (1 seat); Plus $39/seat/mo + usage",
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        },
+        {
+          "name": "QA Wolf",
+          "url": "https://www.qawolf.com",
+          "description": "AI testing platform that maps, writes and runs E2E tests for web and mobile apps.",
+          "best_for": "Outsourced test coverage",
+          "rank_reason": "Managed, but pricier",
+          "rank": 5,
+          "verified_date": "2026-10-13",
+          "affiliate_url": ""
+        }
+      ]
+    }
+  ],
+  "new_this_week": [
+    {
+      "name": "Gemini 4 Argon (API + Antigravity)",
+      "date": "2026-10-13",
+      "category": "AI APIs & models",
+      "summary": "Google's frontier model for long-horizon software engineering, in the Gemini API and Antigravity.",
+      "source": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+    },
+    {
+      "name": "CodeRabbit on Cursor Origin",
+      "date": "2026-10-13",
+      "category": "Testing & debugging",
+      "summary": "CodeRabbit becomes a launch partner reviewing PRs hosted on Cursor Origin.",
+      "source": "https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin"
+    },
+    {
+      "name": "Supabase joins SpaceXAI Partner Network",
+      "date": "2026-10-13",
+      "category": "Backend, database & auth",
+      "summary": "Grok Bot + Cursor can ship changes to Supabase backends via the Supabase MCP server.",
+      "source": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot"
+    },
+    {
+      "name": "AWS AI/ML skill in Agent Toolkit for AWS",
+      "date": "2026-10-13",
+      "category": "AI coding agents & IDEs",
+      "summary": "Coding agents can train and deploy SageMaker models via natural language.",
+      "source": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/"
+    },
+    {
+      "name": "CopilotKit CLiF (early access)",
+      "date": "2026-10-13",
+      "category": "Agent frameworks",
+      "summary": "Turns agent/user trajectories into reviewable SKILL.md skills.",
+      "source": "https://www.copilotkit.ai/blog/introducing-clif"
+    },
+    {
+      "name": "AWS Lambda Web Functions",
+      "date": "2026-10-12",
+      "category": "Deploy & hosting",
+      "summary": "Deploy standard Node.js HTTP apps to Lambda with one command, multi-region.",
+      "source": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/"
+    },
+    {
+      "name": "Databricks agent memory pipelines (Beta)",
+      "date": "2026-10-12",
+      "category": "Agent frameworks",
+      "summary": "Distills conversations into durable agent memory.",
+      "source": "https://releases.fru.dev/releases/agent-bricks-2026-10-12-agent-memory-pipelines-are-in-beta"
+    },
+    {
+      "name": "BerriAI LiteReview (open source)",
+      "date": "2026-10-11",
+      "category": "Testing & debugging",
+      "summary": "Self-hosted AI PR review agents running in Modal sandboxes.",
+      "source": "https://sourcebento.com/news/berriai-releases-litereview-for-self-hosted-ai-pull-request-analysis"
+    },
+    {
+      "name": "Neon AI Gateway: all models on prepaid credits",
+      "date": "2026-10-09",
+      "category": "Backend, database & auth",
+      "summary": "Paid plans can call every model in Neon's AI Gateway without requesting access.",
+      "source": "https://neon.com/docs/changelog/2026-10-09"
+    },
+    {
+      "name": "Lovable: cross-chat references & tasks",
+      "date": "2026-10-09",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Reference another chat or send it a task with @.",
+      "source": "https://releases.fru.dev/releases/lovable-2026-10-09-reference-another-chat-or-send-it-a-task"
+    },
+    {
+      "name": "Lovable: 9 new app + chat connectors",
+      "date": "2026-10-08",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom.",
+      "source": "https://releases.fru.dev/releases/lovable-2026-10-08-app-chat-connectors-zendesk-neon-motherduck-oracle-autonomous-ai-databas"
+    },
+    {
+      "name": "Vallic Cloud",
+      "date": "2026-10-08",
+      "category": "Deploy & hosting",
+      "summary": "Managed hosting platform with Git deploys from a single vallic.yaml.",
+      "source": "https://vallic.com/blog/vallic-cloud-live-all-infrastructure-almost-none-ops-115"
+    },
+    {
+      "name": "Tessl Code Review",
+      "date": "2026-10-08",
+      "category": "Testing & debugging",
+      "summary": "Code review standards as repo-based 'lenses' routed by file path.",
+      "source": "https://wpnews.pro/news/a-context-driven-code-review-that-learns-and-improves-on-every-run"
+    },
+    {
+      "name": "Garuda",
+      "date": "2026-10-08",
+      "category": "AI coding agents & IDEs",
+      "summary": "Open-source coding agent with OS-level sandbox (Apache-2.0).",
+      "source": "https://madhu-sv.github.io/garuda/blog/introducing-garuda/"
+    },
+    {
+      "name": "Playwright v1.64",
+      "date": "2026-10-07",
+      "category": "Testing & debugging",
+      "summary": "WebMCP tool testing, --shuffle, locator.within(), VP9 videos.",
+      "source": "https://github.com/microsoft/playwright/releases"
+    },
+    {
+      "name": "Coderblock",
+      "date": "2026-10-07",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Vibe coding platform launched on Product Hunt.",
+      "source": "https://coderblock.ai/news/coderblock-launches-on-product-hunt"
+    },
+    {
+      "name": "Wissly Code",
+      "date": "2026-10-07",
+      "category": "AI coding agents & IDEs",
+      "summary": "Coding agent running on a local LLM inside your network.",
+      "source": "https://www.wissly.ai/en/blog/wissly-code-launch"
+    },
+    {
+      "name": "Figma agent GA",
+      "date": "2026-10-06",
+      "category": "Design-to-code",
+      "summary": "Figma's AI design agent exits beta with guidelines and multiplayer improvements.",
+      "source": "https://www.theverge.com/tech/1004953/figmas-ai-agent-for-product-design-is-now-generally-available"
+    },
+    {
+      "name": "Bond v1.0.0-beta.1",
+      "date": "2026-10-06",
+      "category": "AI coding agents & IDEs",
+      "summary": "Neuro's agentic coding platform for Windows, BYOK.",
+      "source": "https://neuro-corp.com/blog/bond-ai-neuro-s-agentic-coding-platform-for-windows"
+    },
+    {
+      "name": "Tofu (Show HN)",
+      "date": "2026-10-06",
+      "category": "Deploy & hosting",
+      "summary": "Deployment platform built for agents: hosting, Postgres, domains, auth via MCP.",
+      "source": "https://wpnews.pro/news/show-hn-tofu-let-your-agent-deploy-full-stack-apps"
+    }
+  ],
+  "featured": []
+}
