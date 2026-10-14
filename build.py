@@ -28,8 +28,8 @@ def page(path,title,desc,body,jsonld=()):
   url=SITE+path
   h=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="ShipStack"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/preview.png">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@shipstacktools"><meta name="twitter:creator" content="@shipstacktools"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/preview.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="ShipStack"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@shipstacktools"><meta name="twitter:creator" content="@shipstacktools"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/og.png">
 <link rel="alternate" type="application/json" href="/api/tools.json"><link rel="stylesheet" href="/style.css">{"".join(ld(j) for j in jsonld)}</head><body>
 <header><a class="logo" href="/">⚡ ShipStack</a><nav><a href="/#tools">Tools</a><a href="/#new">New this week</a><a href="/advertise/">Advertise</a><a href="/#signup">Newsletter</a></nav></header>
 {body}
