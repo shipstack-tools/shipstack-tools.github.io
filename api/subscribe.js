@@ -30,7 +30,8 @@ module.exports = async (req, res) => {
   const seg = process.env.RESEND_AUDIENCE_ID;
   if (!process.env.RESEND_API_KEY || !seg) return res.status(500).json({ ok: false, error: "Signup is temporarily unavailable." });
   try {
-    let existing = false;
+    const pre = await resend(`/contacts/${encodeURIComponent(email)}`, "GET");
+    let existing = pre.ok && !!pre.data.id;
     const c = await resend("/contacts", "POST", { email, unsubscribed: false, segments: [{ id: seg }] });
     if (!c.ok) {
       const msg = JSON.stringify(c.data).toLowerCase();
