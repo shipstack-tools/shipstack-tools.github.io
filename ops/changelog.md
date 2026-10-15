@@ -14,3 +14,6 @@
 - Daily release update (catch-up run): added 9 verified items to "New this week" (Hermes Agent v0.22.0, Claude Platform OTel traces beta, Claude Code 2.1.299, Tiden, Reason, Epherem, Gemini 4 Argon in GitHub Copilot, GitLab Duo agent orchestration, OpenCode 2.0); dropped items older than Oct 7 (Figma agent GA, Bond, Tofu). No pricing/ranking changes verified.
 - Bug fix: /api/tools.json returned 404 on Vercel (the /api dir is treated as serverless functions). build.py now also writes data/tools.json and vercel.json rewrites /api/tools.json to it.
 - Committed regenerated pages from the @shipstacktools X-handle change (twitter:site, Organization JSON-LD, footer link) that were built but not committed.
+
+## 2026-10-15
+- Daily release update: added Vani Code Agent (VS Code), Inferock Serve, Muse Wonder (Meta Model API), Railway Authentication + OpenRouter beta; dropped Playwright v1.64, Coderblock, Wissly Code (pre-Oct 8); upgraded several aggregator sources to first-party; Railway + Anthropic API description/verified_date refresh (no ranking changes).

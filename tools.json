@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "categories": [
     {
       "name": "AI coding agents & IDEs",
@@ -169,12 +169,12 @@
         {
           "name": "Railway",
           "url": "https://railway.com",
-          "description": "Deploy apps, databases and services from a repo.",
+          "description": "Deploy apps, databases and services from a repo; Enterprise Authentication (IAP) and OpenRouter BYOM beta.",
           "best_for": "Backends and full-stack apps",
           "rank_reason": "Easiest for servers + DBs",
           "rank": 4,
           "pricing": "Free trial ($5 credit); Hobby $5/mo min usage; Pro $20/mo min usage",
-          "verified_date": "2026-10-13",
+          "verified_date": "2026-10-15",
           "affiliate_url": "https://railway.com?referralCode=i_joX_"
         },
         {
@@ -314,11 +314,11 @@
         {
           "name": "Anthropic API (Claude)",
           "url": "https://claude.com/platform/api",
-          "description": "Claude Platform: Claude models plus managed agent harness and infrastructure via API.",
+          "description": "Claude Platform API: Claude models (incl. Haiku 5.5) plus managed agent harness; Sonnet 5.5 cache reads halved Oct 7.",
           "best_for": "Coding and agentic tasks",
           "rank_reason": "Top-tier coding performance",
           "rank": 1,
-          "verified_date": "2026-10-13",
+          "verified_date": "2026-10-15",
           "affiliate_url": ""
         },
         {
@@ -491,25 +491,11 @@
   ],
   "new_this_week": [
     {
-      "name": "Hermes Agent v0.22.0",
-      "date": "2026-10-14",
-      "category": "Agent frameworks",
-      "summary": "Nous Research's open agent adds keyless guided onboarding, Gmail/Linear/Notion connectors, one-click local llama.cpp models and a 600-plugin catalog.",
-      "source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0"
-    },
-    {
-      "name": "Claude Platform: OpenTelemetry traces (public beta)",
-      "date": "2026-10-14",
-      "category": "AI APIs & models",
-      "summary": "Send OTel traces from Claude Managed Agents, the Messages API and Claude SDKs to any observability tool.",
-      "source": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform"
-    },
-    {
-      "name": "Claude Code 2.1.299",
+      "name": "Vani Code Agent for VS Code",
       "date": "2026-10-14",
       "category": "AI coding agents & IDEs",
-      "summary": "Idle compaction for 200K+ token conversations, file-mention controls, and /effort, /fast, /model in agent view.",
-      "source": "https://github.com/anthropics/claude-code/releases"
+      "summary": "Free VS Code extension: coding agent edits files with diff review and runs commands only with your approval.",
+      "source": "https://vani.ai/news/vani-code-agent-for-vs-code"
     },
     {
       "name": "Tiden",
@@ -526,6 +512,20 @@
       "source": "https://www.producthunt.com/products/dereference-the-100x-ide"
     },
     {
+      "name": "Inferock Serve",
+      "date": "2026-10-14",
+      "category": "AI APIs & models",
+      "summary": "Serverless LLM inference without provider keys; prepaid usage with service credits for eligible failed calls.",
+      "source": "https://www.producthunt.com/products/inferock"
+    },
+    {
+      "name": "Hermes Agent v0.22.0",
+      "date": "2026-10-14",
+      "category": "Agent frameworks",
+      "summary": "Nous Research's open agent adds keyless guided onboarding, Gmail/Linear/Notion connectors, one-click local llama.cpp models and a 600-plugin catalog.",
+      "source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0"
+    },
+    {
       "name": "Epherem",
       "date": "2026-10-14",
       "category": "Testing & debugging",
@@ -533,32 +533,18 @@
       "source": "https://hunted.space/product/epherem"
     },
     {
-      "name": "Gemini 4 Argon in GitHub Copilot",
-      "date": "2026-10-13",
-      "category": "AI coding agents & IDEs",
-      "summary": "GA for Copilot Pro+, Max, Business and Enterprise across VS Code, CLI, coding agent, JetBrains and Xcode.",
-      "source": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/"
-    },
-    {
-      "name": "GitLab Duo agent orchestration",
-      "date": "2026-10-13",
-      "category": "AI coding agents & IDEs",
-      "summary": "Goal-driven flows run work end to end through review, tests, security scans and approvals; Custom Flows GA.",
-      "source": "https://about.gitlab.com/blog/gitlab-agent-orchestration/"
-    },
-    {
-      "name": "Gemini 4 Argon (API + Antigravity)",
-      "date": "2026-10-13",
+      "name": "Claude Platform: OpenTelemetry traces (public beta)",
+      "date": "2026-10-14",
       "category": "AI APIs & models",
-      "summary": "Google's frontier model for long-horizon software engineering, in the Gemini API and Antigravity.",
-      "source": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+      "summary": "Send OTel traces from Claude Managed Agents, the Messages API and Claude SDKs to any observability tool.",
+      "source": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform"
     },
     {
-      "name": "CodeRabbit on Cursor Origin",
-      "date": "2026-10-13",
-      "category": "Testing & debugging",
-      "summary": "CodeRabbit becomes a launch partner reviewing PRs hosted on Cursor Origin.",
-      "source": "https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin"
+      "name": "Claude Code 2.1.299",
+      "date": "2026-10-14",
+      "category": "AI coding agents & IDEs",
+      "summary": "Idle compaction for 200K+ token conversations, file-mention controls, and /effort, /fast, /model in agent view.",
+      "source": "https://github.com/anthropics/claude-code/releases"
     },
     {
       "name": "Supabase joins SpaceXAI Partner Network",
@@ -568,11 +554,25 @@
       "source": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot"
     },
     {
-      "name": "AWS AI/ML skill in Agent Toolkit for AWS",
+      "name": "GitLab Duo agent orchestration",
       "date": "2026-10-13",
       "category": "AI coding agents & IDEs",
-      "summary": "Coding agents can train and deploy SageMaker models via natural language.",
-      "source": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/"
+      "summary": "Goal-driven flows run work end to end through review, tests, security scans and approvals; Custom Flows GA.",
+      "source": "https://about.gitlab.com/blog/gitlab-agent-orchestration/"
+    },
+    {
+      "name": "Gemini 4 Argon in GitHub Copilot",
+      "date": "2026-10-13",
+      "category": "AI coding agents & IDEs",
+      "summary": "GA for Copilot Pro+, Max, Business and Enterprise across VS Code, CLI, coding agent, JetBrains and Xcode.",
+      "source": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/"
+    },
+    {
+      "name": "Gemini 4 Argon (API + Antigravity)",
+      "date": "2026-10-13",
+      "category": "AI APIs & models",
+      "summary": "Google's frontier model for long-horizon software engineering, in the Gemini API and Antigravity.",
+      "source": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
     },
     {
       "name": "CopilotKit CLiF (early access)",
@@ -582,11 +582,39 @@
       "source": "https://www.copilotkit.ai/blog/introducing-clif"
     },
     {
+      "name": "CodeRabbit on Cursor Origin",
+      "date": "2026-10-13",
+      "category": "Testing & debugging",
+      "summary": "CodeRabbit becomes a launch partner reviewing PRs hosted on Cursor Origin.",
+      "source": "https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin"
+    },
+    {
+      "name": "AWS AI/ML skill in Agent Toolkit for AWS",
+      "date": "2026-10-13",
+      "category": "AI coding agents & IDEs",
+      "summary": "Coding agents can train and deploy SageMaker models via natural language.",
+      "source": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/"
+    },
+    {
       "name": "OpenCode 2.0",
       "date": "2026-10-12",
       "category": "AI coding agents & IDEs",
       "summary": "Open-source coding agent gets a shared background service across terminal/web/desktop, rebuilt API, SDK and background subagents.",
-      "source": "https://www.techdebrief.co/ai-apps/opencode-20-launches-with-shared-background-service-rebuilt--46bc58e6-ee8f-4d1e-8c33-3e25d0a18fdb"
+      "source": "https://anoma.ly/notes/opencode-2-0/"
+    },
+    {
+      "name": "Muse Wonder (Meta Model API)",
+      "date": "2026-10-12",
+      "category": "AI APIs & models",
+      "summary": "Meta frontier coding model on Muse Code and Meta Model API at $4/$20 per million tokens; Wonder Full via Muse Code plans.",
+      "source": "https://dev.meta.ai/resources/blog/build-with-muse-wonder"
+    },
+    {
+      "name": "Databricks agent memory pipelines (Beta)",
+      "date": "2026-10-12",
+      "category": "Agent frameworks",
+      "summary": "Distills conversations into durable agent memory.",
+      "source": "https://docs.databricks.com/aws/en/release-notes/product/2026/october"
     },
     {
       "name": "AWS Lambda Web Functions",
@@ -596,18 +624,18 @@
       "source": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/"
     },
     {
-      "name": "Databricks agent memory pipelines (Beta)",
-      "date": "2026-10-12",
-      "category": "Agent frameworks",
-      "summary": "Distills conversations into durable agent memory.",
-      "source": "https://releases.fru.dev/releases/agent-bricks-2026-10-12-agent-memory-pipelines-are-in-beta"
-    },
-    {
       "name": "BerriAI LiteReview (open source)",
       "date": "2026-10-11",
       "category": "Testing & debugging",
       "summary": "Self-hosted AI PR review agents running in Modal sandboxes.",
-      "source": "https://sourcebento.com/news/berriai-releases-litereview-for-self-hosted-ai-pull-request-analysis"
+      "source": "https://github.com/BerriAI/litereview"
+    },
+    {
+      "name": "Railway Authentication + OpenRouter beta",
+      "date": "2026-10-09",
+      "category": "Deploy & hosting",
+      "summary": "Enterprise identity-aware proxy gates public domains behind Railway login; OpenRouter BYOM integration in beta.",
+      "source": "https://railway.com/changelog/railway-ios-auth-openrouter"
     },
     {
       "name": "Neon AI Gateway: all models on prepaid credits",
@@ -621,14 +649,7 @@
       "date": "2026-10-09",
       "category": "App builders (prompt-to-app)",
       "summary": "Reference another chat or send it a task with @.",
-      "source": "https://releases.fru.dev/releases/lovable-2026-10-09-reference-another-chat-or-send-it-a-task"
-    },
-    {
-      "name": "Lovable: 9 new app + chat connectors",
-      "date": "2026-10-08",
-      "category": "App builders (prompt-to-app)",
-      "summary": "Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom.",
-      "source": "https://releases.fru.dev/releases/lovable-2026-10-08-app-chat-connectors-zendesk-neon-motherduck-oracle-autonomous-ai-databas"
+      "source": "https://docs.lovable.dev/changelog"
     },
     {
       "name": "Vallic Cloud",
@@ -642,7 +663,14 @@
       "date": "2026-10-08",
       "category": "Testing & debugging",
       "summary": "Code review standards as repo-based 'lenses' routed by file path.",
-      "source": "https://wpnews.pro/news/a-context-driven-code-review-that-learns-and-improves-on-every-run"
+      "source": "https://tessl.io/blog/launching-tessl-code-review"
+    },
+    {
+      "name": "Lovable: 9 new app + chat connectors",
+      "date": "2026-10-08",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom.",
+      "source": "https://docs.lovable.dev/changelog"
     },
     {
       "name": "Garuda",
@@ -650,27 +678,6 @@
       "category": "AI coding agents & IDEs",
       "summary": "Open-source coding agent with OS-level sandbox (Apache-2.0).",
       "source": "https://madhu-sv.github.io/garuda/blog/introducing-garuda/"
-    },
-    {
-      "name": "Playwright v1.64",
-      "date": "2026-10-07",
-      "category": "Testing & debugging",
-      "summary": "WebMCP tool testing, --shuffle, locator.within(), VP9 videos.",
-      "source": "https://github.com/microsoft/playwright/releases"
-    },
-    {
-      "name": "Coderblock",
-      "date": "2026-10-07",
-      "category": "App builders (prompt-to-app)",
-      "summary": "Vibe coding platform launched on Product Hunt.",
-      "source": "https://coderblock.ai/news/coderblock-launches-on-product-hunt"
-    },
-    {
-      "name": "Wissly Code",
-      "date": "2026-10-07",
-      "category": "AI coding agents & IDEs",
-      "summary": "Coding agent running on a local LLM inside your network.",
-      "source": "https://www.wissly.ai/en/blog/wissly-code-launch"
     }
   ],
   "featured": []

@@ -1,4 +1,4 @@
-# ShipStack — full directory (verified 2026-10-14)
+# ShipStack — full directory (verified 2026-10-15)
 
 
 ## Best AI coding agents & IDEs
@@ -29,7 +29,7 @@ Best for deploying AI-built apps: Vercel.
 1. Vercel (https://vercel.com) — Frontend cloud for Next.js and web apps with preview deploys. Best for: Next.js / frontend apps. Why: Best DX for frontend deploys. Pricing: Hobby free; Pro $20/mo + usage.
 2. Netlify (https://www.netlify.com) — Web platform for deploying sites and serverless functions. Best for: Static & Jamstack sites. Why: Simple, generous for static. Pricing: Free; Personal $9/mo; Pro $20/mo.
 3. Cloudflare Workers & Pages (https://workers.cloudflare.com) — Edge compute and static hosting on Cloudflare's network. Best for: Global edge apps, low cost. Why: Fast edge, wide platform. Pricing: Free plan; Workers Paid from $5/mo + usage.
-4. Railway (https://railway.com) — Deploy apps, databases and services from a repo. Best for: Backends and full-stack apps. Why: Easiest for servers + DBs. Pricing: Free trial ($5 credit); Hobby $5/mo min usage; Pro $20/mo min usage.
+4. Railway (https://railway.com) — Deploy apps, databases and services from a repo; Enterprise Authentication (IAP) and OpenRouter BYOM beta. Best for: Backends and full-stack apps. Why: Easiest for servers + DBs. Pricing: Free trial ($5 credit); Hobby $5/mo min usage; Pro $20/mo min usage.
 5. Render (https://render.com) — Cloud platform for web services, workers and databases. Best for: Heroku-style deploys. Why: Reliable, straightforward. Pricing: Hobby $0 + compute; Pro $25/mo + compute; Org $499/mo + compute.
 6. Fly.io (https://fly.io) — Runs app containers (Machines) worldwide; now pitched as 'computers for agents' with Sprites sandboxes. Best for: Containerized global apps. Why: Powerful but more ops. Pricing: Usage-based; shared-cpu-1x 256MB from ~$2.19/mo.
 
@@ -56,7 +56,7 @@ Best for turning designs into code: Figma Make.
 
 Best for adding AI features via an API: Anthropic API (Claude).
 
-1. Anthropic API (Claude) (https://claude.com/platform/api) — Claude Platform: Claude models plus managed agent harness and infrastructure via API. Best for: Coding and agentic tasks. Why: Top-tier coding performance.
+1. Anthropic API (Claude) (https://claude.com/platform/api) — Claude Platform API: Claude models (incl. Haiku 5.5) plus managed agent harness; Sonnet 5.5 cache reads halved Oct 7. Best for: Coding and agentic tasks. Why: Top-tier coding performance.
 2. OpenAI API (https://platform.openai.com) — API for GPT models, images, audio and agents. Best for: General-purpose apps. Why: Broadest ecosystem.
 3. Gemini API (https://ai.google.dev) — Google's Gemini models via AI Studio and API. Best for: Long-context and multimodal. Why: Gemini 4 Argon now available.
 4. OpenRouter (https://openrouter.ai) — Unified API to hundreds of models. Best for: Model switching / comparisons. Why: One key, many models.
@@ -85,29 +85,30 @@ Best for testing and debugging AI-written code: Sentry.
 
 ## New this week
 
-- 2026-10-14 — Hermes Agent v0.22.0 [Agent frameworks]: Nous Research's open agent adds keyless guided onboarding, Gmail/Linear/Notion connectors, one-click local llama.cpp models and a 600-plugin catalog. Source: https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0
-- 2026-10-14 — Claude Platform: OpenTelemetry traces (public beta) [AI APIs & models]: Send OTel traces from Claude Managed Agents, the Messages API and Claude SDKs to any observability tool. Source: https://claude.com/resources/articles/agent-observability-on-the-claude-platform
-- 2026-10-14 — Claude Code 2.1.299 [AI coding agents & IDEs]: Idle compaction for 200K+ token conversations, file-mention controls, and /effort, /fast, /model in agent view. Source: https://github.com/anthropics/claude-code/releases
+- 2026-10-14 — Vani Code Agent for VS Code [AI coding agents & IDEs]: Free VS Code extension: coding agent edits files with diff review and runs commands only with your approval. Source: https://vani.ai/news/vani-code-agent-for-vs-code
 - 2026-10-14 — Tiden [Testing & debugging]: Intent verification for coding agents: versioned requirements checked by tests in your environment (#6 on Product Hunt). Source: https://www.producthunt.com/products/tiden
 - 2026-10-14 — Reason [AI coding agents & IDEs]: Cloud or local coding agent that writes code, runs tests and opens PRs from Mac app, terminal, web or Slack. Source: https://www.producthunt.com/products/dereference-the-100x-ide
+- 2026-10-14 — Inferock Serve [AI APIs & models]: Serverless LLM inference without provider keys; prepaid usage with service credits for eligible failed calls. Source: https://www.producthunt.com/products/inferock
+- 2026-10-14 — Hermes Agent v0.22.0 [Agent frameworks]: Nous Research's open agent adds keyless guided onboarding, Gmail/Linear/Notion connectors, one-click local llama.cpp models and a 600-plugin catalog. Source: https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0
 - 2026-10-14 — Epherem [Testing & debugging]: Free security scanner for AI-built apps: auth, database, exposed keys and vulnerable packages, with fix prompts. Source: https://hunted.space/product/epherem
-- 2026-10-13 — Gemini 4 Argon in GitHub Copilot [AI coding agents & IDEs]: GA for Copilot Pro+, Max, Business and Enterprise across VS Code, CLI, coding agent, JetBrains and Xcode. Source: https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/
-- 2026-10-13 — GitLab Duo agent orchestration [AI coding agents & IDEs]: Goal-driven flows run work end to end through review, tests, security scans and approvals; Custom Flows GA. Source: https://about.gitlab.com/blog/gitlab-agent-orchestration/
-- 2026-10-13 — Gemini 4 Argon (API + Antigravity) [AI APIs & models]: Google's frontier model for long-horizon software engineering, in the Gemini API and Antigravity. Source: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/
-- 2026-10-13 — CodeRabbit on Cursor Origin [Testing & debugging]: CodeRabbit becomes a launch partner reviewing PRs hosted on Cursor Origin. Source: https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin
+- 2026-10-14 — Claude Platform: OpenTelemetry traces (public beta) [AI APIs & models]: Send OTel traces from Claude Managed Agents, the Messages API and Claude SDKs to any observability tool. Source: https://claude.com/resources/articles/agent-observability-on-the-claude-platform
+- 2026-10-14 — Claude Code 2.1.299 [AI coding agents & IDEs]: Idle compaction for 200K+ token conversations, file-mention controls, and /effort, /fast, /model in agent view. Source: https://github.com/anthropics/claude-code/releases
 - 2026-10-13 — Supabase joins SpaceXAI Partner Network [Backend, database & auth]: Grok Bot + Cursor can ship changes to Supabase backends via the Supabase MCP server. Source: https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot
-- 2026-10-13 — AWS AI/ML skill in Agent Toolkit for AWS [AI coding agents & IDEs]: Coding agents can train and deploy SageMaker models via natural language. Source: https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/
+- 2026-10-13 — GitLab Duo agent orchestration [AI coding agents & IDEs]: Goal-driven flows run work end to end through review, tests, security scans and approvals; Custom Flows GA. Source: https://about.gitlab.com/blog/gitlab-agent-orchestration/
+- 2026-10-13 — Gemini 4 Argon in GitHub Copilot [AI coding agents & IDEs]: GA for Copilot Pro+, Max, Business and Enterprise across VS Code, CLI, coding agent, JetBrains and Xcode. Source: https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/
+- 2026-10-13 — Gemini 4 Argon (API + Antigravity) [AI APIs & models]: Google's frontier model for long-horizon software engineering, in the Gemini API and Antigravity. Source: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/
 - 2026-10-13 — CopilotKit CLiF (early access) [Agent frameworks]: Turns agent/user trajectories into reviewable SKILL.md skills. Source: https://www.copilotkit.ai/blog/introducing-clif
-- 2026-10-12 — OpenCode 2.0 [AI coding agents & IDEs]: Open-source coding agent gets a shared background service across terminal/web/desktop, rebuilt API, SDK and background subagents. Source: https://www.techdebrief.co/ai-apps/opencode-20-launches-with-shared-background-service-rebuilt--46bc58e6-ee8f-4d1e-8c33-3e25d0a18fdb
+- 2026-10-13 — CodeRabbit on Cursor Origin [Testing & debugging]: CodeRabbit becomes a launch partner reviewing PRs hosted on Cursor Origin. Source: https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin
+- 2026-10-13 — AWS AI/ML skill in Agent Toolkit for AWS [AI coding agents & IDEs]: Coding agents can train and deploy SageMaker models via natural language. Source: https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/
+- 2026-10-12 — OpenCode 2.0 [AI coding agents & IDEs]: Open-source coding agent gets a shared background service across terminal/web/desktop, rebuilt API, SDK and background subagents. Source: https://anoma.ly/notes/opencode-2-0/
+- 2026-10-12 — Muse Wonder (Meta Model API) [AI APIs & models]: Meta frontier coding model on Muse Code and Meta Model API at $4/$20 per million tokens; Wonder Full via Muse Code plans. Source: https://dev.meta.ai/resources/blog/build-with-muse-wonder
+- 2026-10-12 — Databricks agent memory pipelines (Beta) [Agent frameworks]: Distills conversations into durable agent memory. Source: https://docs.databricks.com/aws/en/release-notes/product/2026/october
 - 2026-10-12 — AWS Lambda Web Functions [Deploy & hosting]: Deploy standard Node.js HTTP apps to Lambda with one command, multi-region. Source: https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/
-- 2026-10-12 — Databricks agent memory pipelines (Beta) [Agent frameworks]: Distills conversations into durable agent memory. Source: https://releases.fru.dev/releases/agent-bricks-2026-10-12-agent-memory-pipelines-are-in-beta
-- 2026-10-11 — BerriAI LiteReview (open source) [Testing & debugging]: Self-hosted AI PR review agents running in Modal sandboxes. Source: https://sourcebento.com/news/berriai-releases-litereview-for-self-hosted-ai-pull-request-analysis
+- 2026-10-11 — BerriAI LiteReview (open source) [Testing & debugging]: Self-hosted AI PR review agents running in Modal sandboxes. Source: https://github.com/BerriAI/litereview
+- 2026-10-09 — Railway Authentication + OpenRouter beta [Deploy & hosting]: Enterprise identity-aware proxy gates public domains behind Railway login; OpenRouter BYOM integration in beta. Source: https://railway.com/changelog/railway-ios-auth-openrouter
 - 2026-10-09 — Neon AI Gateway: all models on prepaid credits [Backend, database & auth]: Paid plans can call every model in Neon's AI Gateway without requesting access. Source: https://neon.com/docs/changelog/2026-10-09
-- 2026-10-09 — Lovable: cross-chat references & tasks [App builders (prompt-to-app)]: Reference another chat or send it a task with @. Source: https://releases.fru.dev/releases/lovable-2026-10-09-reference-another-chat-or-send-it-a-task
-- 2026-10-08 — Lovable: 9 new app + chat connectors [App builders (prompt-to-app)]: Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom. Source: https://releases.fru.dev/releases/lovable-2026-10-08-app-chat-connectors-zendesk-neon-motherduck-oracle-autonomous-ai-databas
+- 2026-10-09 — Lovable: cross-chat references & tasks [App builders (prompt-to-app)]: Reference another chat or send it a task with @. Source: https://docs.lovable.dev/changelog
 - 2026-10-08 — Vallic Cloud [Deploy & hosting]: Managed hosting platform with Git deploys from a single vallic.yaml. Source: https://vallic.com/blog/vallic-cloud-live-all-infrastructure-almost-none-ops-115
-- 2026-10-08 — Tessl Code Review [Testing & debugging]: Code review standards as repo-based 'lenses' routed by file path. Source: https://wpnews.pro/news/a-context-driven-code-review-that-learns-and-improves-on-every-run
+- 2026-10-08 — Tessl Code Review [Testing & debugging]: Code review standards as repo-based 'lenses' routed by file path. Source: https://tessl.io/blog/launching-tessl-code-review
+- 2026-10-08 — Lovable: 9 new app + chat connectors [App builders (prompt-to-app)]: Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom. Source: https://docs.lovable.dev/changelog
 - 2026-10-08 — Garuda [AI coding agents & IDEs]: Open-source coding agent with OS-level sandbox (Apache-2.0). Source: https://madhu-sv.github.io/garuda/blog/introducing-garuda/
-- 2026-10-07 — Playwright v1.64 [Testing & debugging]: WebMCP tool testing, --shuffle, locator.within(), VP9 videos. Source: https://github.com/microsoft/playwright/releases
-- 2026-10-07 — Coderblock [App builders (prompt-to-app)]: Vibe coding platform launched on Product Hunt. Source: https://coderblock.ai/news/coderblock-launches-on-product-hunt
-- 2026-10-07 — Wissly Code [AI coding agents & IDEs]: Coding agent running on a local LLM inside your network. Source: https://www.wissly.ai/en/blog/wissly-code-launch
