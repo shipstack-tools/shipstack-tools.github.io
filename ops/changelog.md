@@ -17,3 +17,6 @@
 
 ## 2026-10-15
 - Daily release update: added Vani Code Agent (VS Code), Inferock Serve, Muse Wonder (Meta Model API), Railway Authentication + OpenRouter beta; dropped Playwright v1.64, Coderblock, Wissly Code (pre-Oct 8); upgraded several aggregator sources to first-party; Railway + Anthropic API description/verified_date refresh (no ranking changes).
+- Daily ops check (12 PM): crawled all 52 sitemap pages (all 200, avg 0.19s, none slow), 5 extra internal links and 71 external links (only bot-blocking 403s from lovable.dev / openai.com and a transient 500 from dev.meta.ai that returned 200 on recheck). app.js, 52 inline scripts and all JSON-LD blocks parse cleanly.
+  - Mobile fix: header nav was hidden entirely under 600px (no Tools/New/Advertise/Newsletter links on phones). It now wraps onto its own row with 14px links.
+  - SEO: shortened tool-page titles from "{name} review: pricing, best for & alternatives — ShipStack" to "{name} review: pricing & alternatives — ShipStack" so they fit search-result width (og/twitter titles follow).
