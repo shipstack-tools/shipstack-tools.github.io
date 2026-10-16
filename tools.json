@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "categories": [
     {
       "name": "AI coding agents & IDEs",
@@ -491,6 +491,76 @@
   ],
   "new_this_week": [
     {
+      "name": "Muse Spark Open (Meta)",
+      "date": "2026-10-15",
+      "category": "AI APIs & models",
+      "summary": "Meta's open-weight coding and agent model: 816B total / 42B active parameters, 1M-token context, on Groq, OpenRouter, Together and Hugging Face.",
+      "source": "https://research.meta.ai/blog/muse-spark-open"
+    },
+    {
+      "name": "Nemotron 3.5 Super VL (NVIDIA)",
+      "date": "2026-10-15",
+      "category": "AI APIs & models",
+      "summary": "Open 120B multimodal model for always-on agents (text, images, documents, tool use), plus Nemotron 3.5 Bolt for local machines.",
+      "source": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+    },
+    {
+      "name": "Claude Code Review (GA)",
+      "date": "2026-10-15",
+      "category": "Testing & debugging",
+      "summary": "Claude's automatic pull-request reviewer is out of research preview for Claude Team and Enterprise organizations.",
+      "source": "https://claude.com/resources/articles/code-review-is-now-generally-available"
+    },
+    {
+      "name": "GitHub agentic autofix for code scanning (GA)",
+      "date": "2026-10-15",
+      "category": "Testing & debugging",
+      "summary": "Assign a code scanning alert to Copilot and it explores the codebase, proposes a fix, reruns CodeQL to confirm it, then opens a draft PR.",
+      "source": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/"
+    },
+    {
+      "name": "Vercel Daemons (public beta)",
+      "date": "2026-10-15",
+      "category": "Deploy & hosting",
+      "summary": "Run long-running workers (queue consumers, Temporal workers, CI runners) on Vercel without an HTTP server, deployed alongside your app.",
+      "source": "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta"
+    },
+    {
+      "name": "Python on Vercel (GA)",
+      "date": "2026-10-15",
+      "category": "Deploy & hosting",
+      "summary": "Python is now a first-class runtime on Vercel, with auto-detected FastAPI, Flask and Django and native Python SDKs for storage, queues and AI.",
+      "source": "https://vercel.com/changelog/python-on-vercel-is-now-generally-available"
+    },
+    {
+      "name": "Supabase + Stripe Data Pipeline",
+      "date": "2026-10-15",
+      "category": "Backend, database & auth",
+      "summary": "Sync Stripe payments, customers and subscriptions into a Supabase project straight from the Stripe Dashboard, no webhooks needed.",
+      "source": "https://supabase.com/blog/stripe-data-pipeline-now-syncs-real-time-data-to-supabase"
+    },
+    {
+      "name": "Figma Specs",
+      "date": "2026-10-15",
+      "category": "Design-to-code",
+      "summary": "Drop Markdown specs onto the Figma canvas as shared context for teams and agents, with designs and code layers embedded right in the spec.",
+      "source": "https://www.figma.com/blog/introducing-figma-specs/"
+    },
+    {
+      "name": "Lovable: AI models & tools for your apps",
+      "date": "2026-10-15",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Apps built in Lovable can now use GPT-Live, the latest Claude models, Gemini 4 Argon, Perplexity, Firecrawl and more.",
+      "source": "https://lovable.dev/blog/ai-models-and-tools-in-lovable"
+    },
+    {
+      "name": "Lovable Growth tools",
+      "date": "2026-10-14",
+      "category": "App builders (prompt-to-app)",
+      "summary": "Plan and launch SEO, social and Google/YouTube/Meta ad campaigns for your app from the same Lovable chat, with approval before any spend.",
+      "source": "https://lovable.dev/blog/introducing-growth-tools"
+    },
+    {
       "name": "Vani Code Agent for VS Code",
       "date": "2026-10-14",
       "category": "AI coding agents & IDEs",
@@ -650,34 +720,6 @@
       "category": "App builders (prompt-to-app)",
       "summary": "Reference another chat or send it a task with @.",
       "source": "https://docs.lovable.dev/changelog"
-    },
-    {
-      "name": "Vallic Cloud",
-      "date": "2026-10-08",
-      "category": "Deploy & hosting",
-      "summary": "Managed hosting platform with Git deploys from a single vallic.yaml.",
-      "source": "https://vallic.com/blog/vallic-cloud-live-all-infrastructure-almost-none-ops-115"
-    },
-    {
-      "name": "Tessl Code Review",
-      "date": "2026-10-08",
-      "category": "Testing & debugging",
-      "summary": "Code review standards as repo-based 'lenses' routed by file path.",
-      "source": "https://tessl.io/blog/launching-tessl-code-review"
-    },
-    {
-      "name": "Lovable: 9 new app + chat connectors",
-      "date": "2026-10-08",
-      "category": "App builders (prompt-to-app)",
-      "summary": "Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom.",
-      "source": "https://docs.lovable.dev/changelog"
-    },
-    {
-      "name": "Garuda",
-      "date": "2026-10-08",
-      "category": "AI coding agents & IDEs",
-      "summary": "Open-source coding agent with OS-level sandbox (Apache-2.0).",
-      "source": "https://madhu-sv.github.io/garuda/blog/introducing-garuda/"
     }
   ],
   "featured": []

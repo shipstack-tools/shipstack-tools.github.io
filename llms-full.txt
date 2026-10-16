@@ -1,4 +1,4 @@
-# ShipStack — full directory (verified 2026-10-15)
+# ShipStack — full directory (verified 2026-10-16)
 
 
 ## Best AI coding agents & IDEs
@@ -85,6 +85,16 @@ Best for testing and debugging AI-written code: Sentry.
 
 ## New this week
 
+- 2026-10-15 — Muse Spark Open (Meta) [AI APIs & models]: Meta's open-weight coding and agent model: 816B total / 42B active parameters, 1M-token context, on Groq, OpenRouter, Together and Hugging Face. Source: https://research.meta.ai/blog/muse-spark-open
+- 2026-10-15 — Nemotron 3.5 Super VL (NVIDIA) [AI APIs & models]: Open 120B multimodal model for always-on agents (text, images, documents, tool use), plus Nemotron 3.5 Bolt for local machines. Source: https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/
+- 2026-10-15 — Claude Code Review (GA) [Testing & debugging]: Claude's automatic pull-request reviewer is out of research preview for Claude Team and Enterprise organizations. Source: https://claude.com/resources/articles/code-review-is-now-generally-available
+- 2026-10-15 — GitHub agentic autofix for code scanning (GA) [Testing & debugging]: Assign a code scanning alert to Copilot and it explores the codebase, proposes a fix, reruns CodeQL to confirm it, then opens a draft PR. Source: https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/
+- 2026-10-15 — Vercel Daemons (public beta) [Deploy & hosting]: Run long-running workers (queue consumers, Temporal workers, CI runners) on Vercel without an HTTP server, deployed alongside your app. Source: https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta
+- 2026-10-15 — Python on Vercel (GA) [Deploy & hosting]: Python is now a first-class runtime on Vercel, with auto-detected FastAPI, Flask and Django and native Python SDKs for storage, queues and AI. Source: https://vercel.com/changelog/python-on-vercel-is-now-generally-available
+- 2026-10-15 — Supabase + Stripe Data Pipeline [Backend, database & auth]: Sync Stripe payments, customers and subscriptions into a Supabase project straight from the Stripe Dashboard, no webhooks needed. Source: https://supabase.com/blog/stripe-data-pipeline-now-syncs-real-time-data-to-supabase
+- 2026-10-15 — Figma Specs [Design-to-code]: Drop Markdown specs onto the Figma canvas as shared context for teams and agents, with designs and code layers embedded right in the spec. Source: https://www.figma.com/blog/introducing-figma-specs/
+- 2026-10-15 — Lovable: AI models & tools for your apps [App builders (prompt-to-app)]: Apps built in Lovable can now use GPT-Live, the latest Claude models, Gemini 4 Argon, Perplexity, Firecrawl and more. Source: https://lovable.dev/blog/ai-models-and-tools-in-lovable
+- 2026-10-14 — Lovable Growth tools [App builders (prompt-to-app)]: Plan and launch SEO, social and Google/YouTube/Meta ad campaigns for your app from the same Lovable chat, with approval before any spend. Source: https://lovable.dev/blog/introducing-growth-tools
 - 2026-10-14 — Vani Code Agent for VS Code [AI coding agents & IDEs]: Free VS Code extension: coding agent edits files with diff review and runs commands only with your approval. Source: https://vani.ai/news/vani-code-agent-for-vs-code
 - 2026-10-14 — Tiden [Testing & debugging]: Intent verification for coding agents: versioned requirements checked by tests in your environment (#6 on Product Hunt). Source: https://www.producthunt.com/products/tiden
 - 2026-10-14 — Reason [AI coding agents & IDEs]: Cloud or local coding agent that writes code, runs tests and opens PRs from Mac app, terminal, web or Slack. Source: https://www.producthunt.com/products/dereference-the-100x-ide
@@ -108,7 +118,3 @@ Best for testing and debugging AI-written code: Sentry.
 - 2026-10-09 — Railway Authentication + OpenRouter beta [Deploy & hosting]: Enterprise identity-aware proxy gates public domains behind Railway login; OpenRouter BYOM integration in beta. Source: https://railway.com/changelog/railway-ios-auth-openrouter
 - 2026-10-09 — Neon AI Gateway: all models on prepaid credits [Backend, database & auth]: Paid plans can call every model in Neon's AI Gateway without requesting access. Source: https://neon.com/docs/changelog/2026-10-09
 - 2026-10-09 — Lovable: cross-chat references & tasks [App builders (prompt-to-app)]: Reference another chat or send it a task with @. Source: https://docs.lovable.dev/changelog
-- 2026-10-08 — Vallic Cloud [Deploy & hosting]: Managed hosting platform with Git deploys from a single vallic.yaml. Source: https://vallic.com/blog/vallic-cloud-live-all-infrastructure-almost-none-ops-115
-- 2026-10-08 — Tessl Code Review [Testing & debugging]: Code review standards as repo-based 'lenses' routed by file path. Source: https://tessl.io/blog/launching-tessl-code-review
-- 2026-10-08 — Lovable: 9 new app + chat connectors [App builders (prompt-to-app)]: Zendesk, Neon, MotherDuck, Oracle, IBM Db2, Metabase and more, plus Loom. Source: https://docs.lovable.dev/changelog
-- 2026-10-08 — Garuda [AI coding agents & IDEs]: Open-source coding agent with OS-level sandbox (Apache-2.0). Source: https://madhu-sv.github.io/garuda/blog/introducing-garuda/
